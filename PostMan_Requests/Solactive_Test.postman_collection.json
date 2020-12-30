@@ -1,0 +1,152 @@
+{
+	"info": {
+		"_postman_id": "9596037a-961a-4a35-a4ab-58c115b90190",
+		"name": "Solactive_Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Executor Multhreading Ticks",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"instrument\": \"NLFX.US\",\r\n    \"price\": \"276.99\",\r\n    \"timeStamp\": \"1609194748915\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/ticks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"ticks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Executor Multhreading Statistics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/statistics",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"statistics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Executor Multhreading Statistics Instrument",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "word",
+						"type": "text",
+						"value": "monster"
+					},
+					{
+						"key": "pathSchemaDestiny",
+						"type": "text",
+						"value": "C:/QA/ProjectsGIT/CCMS-RestServices-R3"
+					},
+					{
+						"key": "pathSpecPrefix",
+						"type": "text",
+						"value": ""
+					},
+					{
+						"key": "jsonFieldsNamesToAvoid",
+						"type": "text",
+						"value": "type,$schema,id,additionalProperties"
+					},
+					{
+						"key": "jsonFieldsValuesToAvoid",
+						"type": "text",
+						"value": "some_think_to_avoid"
+					},
+					{
+						"key": "soapFieldsNamesToAvoid",
+						"type": "text",
+						"value": "soapenv,Envelope,xmlns,Header,Body"
+					},
+					{
+						"key": "soapFieldsValuesToAvoid",
+						"type": "text",
+						"value": "ns1:,some_think_to_avoid"
+					},
+					{
+						"key": "wrapsRandomFieldsInOne",
+						"type": "text",
+						"value": "QA_TEST_UNIQUE_REFERENCE"
+					},
+					{
+						"key": "wrapsTimeStampFieldsInOne",
+						"type": "text",
+						"value": "TimeStamp"
+					},
+					{
+						"key": "wrapsProcessDateFieldsInOne",
+						"type": "text",
+						"value": "processDate"
+					},
+					{
+						"key": "timeStampFormat",
+						"type": "text",
+						"value": "#TimeStampF1#"
+					},
+					{
+						"key": "orfansFieldsAsPositiveTask",
+						"type": "text",
+						"value": "true"
+					},
+					{
+						"key": "disputeAll",
+						"type": "text",
+						"value": "true"
+					},
+					{
+						"key": "testSuiteNameTask",
+						"type": "text",
+						"value": ""
+					},
+					{
+						"key": "testCaseNameTask",
+						"type": "text",
+						"value": ""
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8081/statistics/SBUX.US",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"statistics",
+						"SBUX.US"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
