@@ -4,7 +4,14 @@
 	* Delete the previous folder **"JMeter-Reports-Solactive"**
 ```
 	jmeter -n -t D:/Projects/Solactive_RealTime_RestController/Jmeter_Performance/Solactive_Tests_RestController.jmx -l D:/Projects/Solactive_RealTime_RestController/Jmeter_Performance/Solactive_Performance_Test.csv -e -o D:/Projects/Solactive_RealTime_RestController/Jmeter_Performance/JMeter-Reports-Solactive/
+	or
+	Solactive_Pattern_Tests_RestController
+	jmeter -n -t D:/Projects/Solactive_RealTime_RestController/Jmeter_Performance/Solactive_Pattern_Tests_RestController.jmx -l D:/Projects/Solactive_RealTime_RestController/Jmeter_Performance/Solactive_Pattern_Performance_Test.csv -e -o D:/Projects/Solactive_RealTime_RestController/Jmeter_Performance/JMeter-Pattern-Reports-Solactive/
+	or for "C:/"
+	jmeter -n -t C:/Martini/Projects/Solactive_RealTime_RestController/Jmeter_Performance/Solactive_Pattern_Tests_RestController.jmx -l C:/Martini/Projects/Solactive_RealTime_RestController/Jmeter_Performance/Solactive_Pattern_Performance_Test.csv -e -o C:/Martini/Projects/Solactive_RealTime_RestController/Jmeter_Performance/JMeter-Pattern-Reports-Solactive/
+
 ```
+
 
 ### Report Summary
 > Open the **index.html** whitin the Folder: 
