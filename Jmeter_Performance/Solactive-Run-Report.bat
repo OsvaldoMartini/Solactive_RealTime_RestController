@@ -2,7 +2,7 @@
 
 :: JMETER Installation Folder
 :: SET JMETER=C:\Appl\apache-jmeter-5.3\bin\jmeter
-SET JMETER==C:\Martini\apache-jmeter-5.3\bin\jmeter
+SET JMETER==D:\Installed\apache-jmeter-5.3\bin\jmeter
 
 :: CURRENT DATETIME
 SET DAY=%date:~0,2%
@@ -16,7 +16,7 @@ SET SEC=%time:~6,2%
 IF "%SEC:~0,1%" == " " SET SEC=0%SEC:~1,1%
 
 :: WORK DIRS
-SET WORK_DIR=C:\Martini\Projects\Solactive_RealTime_RestController\Jmeter_Performance
+SET WORK_DIR=D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance
 SET EXECUTIONS_DIR=%WORK_DIR%\executions
 SET LOG_DIR=%WORK_DIR%\log
 SET ENV=D1
@@ -31,8 +31,8 @@ SET RUN_LOG_FILE=%EXECUTION_RESULT_DIR%\runLog.log
 SET REPORT=%EXECUTION_RESULT_DIR%\Report
 SET LOAD_GEN_NUMBER=1
 SET DURATION=300
-
+export JVM_ARGS="-Dnashorn.args=--no-deprecation-warning"
 :: RUN TEST PLAN
-SET CMD=%JMETER% -Jsample_variables=trxTimeStamp -JloadGenNumber=%LOAD_GEN_NUMBER% -Jduration=%DURATION% -n -t "%TEST_PLAN_FILE%" -l "%LOG_FILE%" -j "%RUN_LOG_FILE%" -Jjmeter.reportgenerator.overall_granularity=60000 -e -o "%REPORT%"
+SET CMD=%JMETER% -Jsample_variables=trxTimeStamp -JloadGenNumber=%LOAD_GEN_NUMBER% -Jduration=%DURATION% -n -t "%TEST_PLAN_FILE%" -l "%LOG_FILE%" -j "%RUN_LOG_FILE%" -Jjmeter.reportgenerator.overall_granularity=60000 -e -o "%REPORT%" -Dnashorn.args=--no-deprecation-warning
 :: ECHO %CMD%
 START %CMD%
