@@ -34,7 +34,7 @@ public class TickController {
 		if (tick.getTimeStamp() < rule60SecondsAgo) {
 	        return new ResponseEntity<Object>(null, HttpStatus.NO_CONTENT);
 		} else if (tick.getTimeStamp() > ruleEpochNow) {
-	        return new ResponseEntity<Object>(null, HttpStatus.BAD_REQUEST);
+	        return new ResponseEntity<Object>(null, HttpStatus.NO_CONTENT);
 		} else {
 			ExecutorMultiRequests.mainMappedTick.put(tick.getInstrument() + "-" + tick.getTimeStamp(), tick);
 	        return new ResponseEntity<Object>(null, HttpStatus.CREATED);
