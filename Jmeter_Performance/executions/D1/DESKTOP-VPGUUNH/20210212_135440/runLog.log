@@ -1,0 +1,414 @@
+2021-02-12 13:54:41,785 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-02-12 13:54:41,809 INFO o.a.j.JMeter: Loading user properties from: D:\Installed\apache-jmeter-5.3\bin\user.properties
+2021-02-12 13:54:41,809 INFO o.a.j.JMeter: Loading system properties from: D:\Installed\apache-jmeter-5.3\bin\system.properties
+2021-02-12 13:54:41,809 INFO o.a.j.JMeter: Setting JMeter property: sample_variables=trxTimeStamp
+2021-02-12 13:54:41,809 INFO o.a.j.JMeter: Setting JMeter property: loadGenNumber=1
+2021-02-12 13:54:41,809 INFO o.a.j.JMeter: Setting JMeter property: duration=300
+2021-02-12 13:54:41,810 INFO o.a.j.JMeter: Setting JMeter property: jmeter.reportgenerator.overall_granularity=60000
+2021-02-12 13:54:41,811 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2021-02-12 13:54:41,818 INFO o.a.j.JMeter: Version 5.3
+2021-02-12 13:54:41,818 INFO o.a.j.JMeter: java.version=11.0.6
+2021-02-12 13:54:41,818 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2021-02-12 13:54:41,818 INFO o.a.j.JMeter: os.name=Windows 10
+2021-02-12 13:54:41,818 INFO o.a.j.JMeter: os.arch=amd64
+2021-02-12 13:54:41,818 INFO o.a.j.JMeter: os.version=10.0
+2021-02-12 13:54:41,818 INFO o.a.j.JMeter: file.encoding=Cp1252
+2021-02-12 13:54:41,818 INFO o.a.j.JMeter: java.awt.headless=true
+2021-02-12 13:54:41,818 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-02-12 13:54:41,818 INFO o.a.j.JMeter: Available Processors =8
+2021-02-12 13:54:41,826 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-02-12 13:54:41,826 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-02-12 13:54:41,826 INFO o.a.j.JMeter: JMeterHome=D:\Installed\apache-jmeter-5.3
+2021-02-12 13:54:41,827 INFO o.a.j.JMeter: user.dir  =D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance
+2021-02-12 13:54:41,827 INFO o.a.j.JMeter: PWD       =D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance
+2021-02-12 13:54:41,829 INFO o.a.j.JMeter: IP: 169.254.151.137 Name: DESKTOP-VPGUUNH FullName: DESKTOP-VPGUUNH
+2021-02-12 13:54:41,832 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\executions\D1\DESKTOP-VPGUUNH\20210212_135440\Report'
+2021-02-12 13:54:41,834 INFO o.a.j.s.FileServer: Default base='D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance'
+2021-02-12 13:54:41,835 INFO o.a.j.s.FileServer: Set new base='D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance'
+2021-02-12 13:54:41,961 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-02-12 13:54:41,979 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-02-12 13:54:41,982 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-02-12 13:54:41,984 INFO o.a.j.s.SaveService: Loading file: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\Solactive_Pattern_RestController.jmx
+2021-02-12 13:54:42,032 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2021-02-12 13:54:42,069 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-02-12 13:54:42,070 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-02-12 13:54:42,070 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-02-12 13:54:42,070 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-02-12 13:54:42,070 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-02-12 13:54:42,070 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-02-12 13:54:42,102 INFO o.a.j.JMeter: Creating summariser <summary>
+2021-02-12 13:54:42,107 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2021-02-12 13:54:42,107 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\executions\D1\DESKTOP-VPGUUNH\20210212_135440\log.jtl
+2021-02-12 13:54:42,107 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: D:\Installed\apache-jmeter-5.3\bin\reportgenerator.properties
+2021-02-12 13:54:42,119 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2021-02-12 13:54:42,123 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2021-02-12 13:54:42,127 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2021-02-12 13:54:42,127 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2021-02-12 13:54:42,127 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2021-02-12 13:54:42,127 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2021-02-12 13:54:42,127 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2021-02-12 13:54:42,127 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2021-02-12 13:54:42,127 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2021-02-12 13:54:42,128 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2021-02-12 13:54:42,132 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2021-02-12 13:54:42,132 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-02-12 13:54:42,132 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2021-02-12 13:54:42,132 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2021-02-12 13:54:42,132 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2021-02-12 13:54:42,132 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2021-02-12 13:54:42,133 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-02-12 13:54:42,133 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-02-12 13:54:42,133 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-02-12 13:54:42,133 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-02-12 13:54:42,134 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2021-02-12 13:54:42,134 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2021-02-12 13:54:42,135 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2021-02-12 13:54:42,135 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2021-02-12 13:54:42,135 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2021-02-12 13:54:42,135 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2021-02-12 13:54:42,142 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-02-12 13:54:42,143 INFO o.a.j.s.SampleEvent: List of sample_variables: [trxTimeStamp]
+2021-02-12 13:54:42,143 INFO o.a.j.s.SampleEvent: List of sample_variables: [trxTimeStamp]
+2021-02-12 13:54:42,153 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-02-12 13:54:42,154 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2021-02-12 13:54:42,653 INFO o.a.j.r.ResultCollector: Folder at D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\log\D1\DESKTOP-VPGUUNH\20210212_135442 was created
+2021-02-12 13:54:43,594 INFO o.a.j.JMeter: Running test (1613134483594)
+2021-02-12 13:54:43,624 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - Ticks
+2021-02-12 13:54:43,625 INFO o.a.j.e.StandardJMeterEngine: Starting 25 threads for group Thread Group - Ticks.
+2021-02-12 13:54:43,625 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-02-12 13:54:43,625 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=25 ramp-up=30 delayedStart=false
+2021-02-12 13:54:43,672 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-02-12 13:54:43,672 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Thread Group - Statistics
+2021-02-12 13:54:43,672 INFO o.a.j.e.StandardJMeterEngine: Starting 25 threads for group Thread Group - Statistics.
+2021-02-12 13:54:43,672 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-02-12 13:54:43,672 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=25 ramp-up=30 delayedStart=false
+2021-02-12 13:54:43,672 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-1
+2021-02-12 13:54:43,675 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-1
+2021-02-12 13:54:43,679 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@384212080
+2021-02-12 13:54:43,693 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2021-02-12 13:54:43,693 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Thread Group - Statistics Instruments
+2021-02-12 13:54:43,693 INFO o.a.j.e.StandardJMeterEngine: Starting 25 threads for group Thread Group - Statistics Instruments.
+2021-02-12 13:54:43,693 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-02-12 13:54:43,694 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=25 ramp-up=30 delayedStart=false
+2021-02-12 13:54:43,696 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-1
+2021-02-12 13:54:43,697 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@343343037
+2021-02-12 13:54:43,708 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-VPGUUNH
+2021-02-12 13:54:43,710 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2021-02-12 13:54:43,710 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-02-12 13:54:43,717 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2021-02-12 13:54:43,719 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-02-12 13:54:43,720 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-02-12 13:54:43,720 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-02-12 13:54:43,720 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-02-12 13:54:44,866 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-2
+2021-02-12 13:54:44,867 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1385968988
+2021-02-12 13:54:44,878 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-2
+2021-02-12 13:54:44,897 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-2
+2021-02-12 13:54:44,898 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@2114981424
+2021-02-12 13:54:46,069 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-3
+2021-02-12 13:54:46,071 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1981445849
+2021-02-12 13:54:46,077 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-3
+2021-02-12 13:54:46,097 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-3
+2021-02-12 13:54:46,098 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@626937835
+2021-02-12 13:54:47,265 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-4
+2021-02-12 13:54:47,266 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@456921378
+2021-02-12 13:54:47,274 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-4
+2021-02-12 13:54:47,296 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-4
+2021-02-12 13:54:47,297 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@590183530
+2021-02-12 13:54:48,463 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-5
+2021-02-12 13:54:48,464 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1024799909
+2021-02-12 13:54:48,475 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-5
+2021-02-12 13:54:48,496 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-5
+2021-02-12 13:54:48,497 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1172303540
+2021-02-12 13:54:49,666 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-6
+2021-02-12 13:54:49,666 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1799826607
+2021-02-12 13:54:49,674 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-6
+2021-02-12 13:54:49,696 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-6
+2021-02-12 13:54:49,698 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@710864379
+2021-02-12 13:54:50,860 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-7
+2021-02-12 13:54:50,861 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@526731295
+2021-02-12 13:54:50,875 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-7
+2021-02-12 13:54:50,895 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-7
+2021-02-12 13:54:50,898 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@265706333
+2021-02-12 13:54:52,060 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-8
+2021-02-12 13:54:52,060 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@128868661
+2021-02-12 13:54:52,074 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-8
+2021-02-12 13:54:52,096 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-8
+2021-02-12 13:54:52,096 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@440945229
+2021-02-12 13:54:53,255 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-9
+2021-02-12 13:54:53,255 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1526697420
+2021-02-12 13:54:53,273 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-9
+2021-02-12 13:54:53,295 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-9
+2021-02-12 13:54:53,296 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1431174163
+2021-02-12 13:54:54,454 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-10
+2021-02-12 13:54:54,454 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1070587729
+2021-02-12 13:54:54,475 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-10
+2021-02-12 13:54:54,496 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-10
+2021-02-12 13:54:54,496 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@953638481
+2021-02-12 13:54:55,652 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-11
+2021-02-12 13:54:55,652 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1207616472
+2021-02-12 13:54:55,674 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-11
+2021-02-12 13:54:55,697 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-11
+2021-02-12 13:54:55,697 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1773810545
+2021-02-12 13:54:56,848 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-12
+2021-02-12 13:54:56,848 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1154393329
+2021-02-12 13:54:56,874 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-12
+2021-02-12 13:54:56,896 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-12
+2021-02-12 13:54:56,896 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@300765719
+2021-02-12 13:54:58,042 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-13
+2021-02-12 13:54:58,042 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@2040934178
+2021-02-12 13:54:58,074 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-13
+2021-02-12 13:54:58,095 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-13
+2021-02-12 13:54:58,095 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1707647980
+2021-02-12 13:54:59,243 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-14
+2021-02-12 13:54:59,243 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1082604819
+2021-02-12 13:54:59,274 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-14
+2021-02-12 13:54:59,296 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-14
+2021-02-12 13:54:59,296 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@918509454
+2021-02-12 13:55:00,437 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-15
+2021-02-12 13:55:00,438 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@970805317
+2021-02-12 13:55:00,461 INFO o.a.j.r.Summariser: summary +     58 in 00:00:17 =    3.4/s Avg:    11 Min:     3 Max:    59 Err:     0 (0.00%) Active: 43 Started: 43 Finished: 0
+2021-02-12 13:55:00,475 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-15
+2021-02-12 13:55:00,495 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-15
+2021-02-12 13:55:00,495 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1068292732
+2021-02-12 13:55:01,633 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-16
+2021-02-12 13:55:01,633 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@901559032
+2021-02-12 13:55:01,674 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-16
+2021-02-12 13:55:01,695 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-16
+2021-02-12 13:55:01,695 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@2064092130
+2021-02-12 13:55:02,836 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-17
+2021-02-12 13:55:02,836 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@850080016
+2021-02-12 13:55:02,875 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-17
+2021-02-12 13:55:02,897 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-17
+2021-02-12 13:55:02,897 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@132760615
+2021-02-12 13:55:04,031 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-18
+2021-02-12 13:55:04,031 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1182450287
+2021-02-12 13:55:04,074 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-18
+2021-02-12 13:55:04,096 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-18
+2021-02-12 13:55:04,096 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@2027035046
+2021-02-12 13:55:05,231 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-19
+2021-02-12 13:55:05,231 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@801256624
+2021-02-12 13:55:05,273 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-19
+2021-02-12 13:55:05,296 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-19
+2021-02-12 13:55:05,296 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@2076078808
+2021-02-12 13:55:06,429 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-20
+2021-02-12 13:55:06,430 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1737884379
+2021-02-12 13:55:06,473 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-20
+2021-02-12 13:55:06,496 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-20
+2021-02-12 13:55:06,497 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1243014999
+2021-02-12 13:55:07,629 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-21
+2021-02-12 13:55:07,629 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1480739896
+2021-02-12 13:55:07,674 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-21
+2021-02-12 13:55:07,696 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-21
+2021-02-12 13:55:07,697 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@256437673
+2021-02-12 13:55:08,827 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-22
+2021-02-12 13:55:08,827 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@2100229262
+2021-02-12 13:55:08,873 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-22
+2021-02-12 13:55:08,895 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-22
+2021-02-12 13:55:08,895 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1103827457
+2021-02-12 13:55:10,028 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-23
+2021-02-12 13:55:10,028 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@32279792
+2021-02-12 13:55:10,073 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-23
+2021-02-12 13:55:10,097 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-23
+2021-02-12 13:55:10,097 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1608009364
+2021-02-12 13:55:11,231 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-24
+2021-02-12 13:55:11,231 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@241923804
+2021-02-12 13:55:11,274 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-24
+2021-02-12 13:55:11,297 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-24
+2021-02-12 13:55:11,297 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1161883392
+2021-02-12 13:55:12,429 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Ticks 1-25
+2021-02-12 13:55:12,429 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@2040645909
+2021-02-12 13:55:12,475 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics 2-25
+2021-02-12 13:55:12,497 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Statistics Instruments 3-25
+2021-02-12 13:55:12,497 INFO o.a.j.s.FileServer: Stored: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv Alias: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@2067054465
+2021-02-12 13:55:32,870 INFO o.a.j.r.Summariser: summary +     63 in 00:00:32 =    1.9/s Avg:     7 Min:     3 Max:    27 Err:     0 (0.00%) Active: 75 Started: 75 Finished: 0
+2021-02-12 13:55:32,871 INFO o.a.j.r.Summariser: summary =    121 in 00:00:49 =    2.5/s Avg:     9 Min:     3 Max:    59 Err:     0 (0.00%)
+2021-02-12 13:56:02,253 INFO o.a.j.r.Summariser: summary +     27 in 00:00:29 =    0.9/s Avg:     6 Min:     3 Max:    18 Err:     0 (0.00%) Active: 75 Started: 75 Finished: 0
+2021-02-12 13:56:02,254 INFO o.a.j.r.Summariser: summary =    148 in 00:01:19 =    1.9/s Avg:     9 Min:     3 Max:    59 Err:     0 (0.00%)
+2021-02-12 13:56:31,079 INFO o.a.j.r.Summariser: summary +     30 in 00:00:29 =    1.0/s Avg:     5 Min:     2 Max:    13 Err:     0 (0.00%) Active: 75 Started: 75 Finished: 0
+2021-02-12 13:56:31,081 INFO o.a.j.r.Summariser: summary =    178 in 00:01:47 =    1.7/s Avg:     8 Min:     2 Max:    59 Err:     0 (0.00%)
+2021-02-12 13:57:00,453 INFO o.a.j.r.Summariser: summary +     30 in 00:00:29 =    1.0/s Avg:     4 Min:     2 Max:     9 Err:     0 (0.00%) Active: 75 Started: 75 Finished: 0
+2021-02-12 13:57:00,454 INFO o.a.j.r.Summariser: summary =    208 in 00:02:17 =    1.5/s Avg:     7 Min:     2 Max:    59 Err:     0 (0.00%)
+2021-02-12 13:57:34,044 INFO o.a.j.r.Summariser: summary +     30 in 00:00:34 =    0.9/s Avg:     4 Min:     2 Max:    13 Err:     0 (0.00%) Active: 75 Started: 75 Finished: 0
+2021-02-12 13:57:34,045 INFO o.a.j.r.Summariser: summary =    238 in 00:02:50 =    1.4/s Avg:     7 Min:     2 Max:    59 Err:     0 (0.00%)
+2021-02-12 13:58:02,864 INFO o.a.j.r.Summariser: summary +     33 in 00:00:29 =    1.1/s Avg:     5 Min:     2 Max:    21 Err:     0 (0.00%) Active: 75 Started: 75 Finished: 0
+2021-02-12 13:58:02,868 INFO o.a.j.r.Summariser: summary =    271 in 00:03:19 =    1.4/s Avg:     7 Min:     2 Max:    59 Err:     0 (0.00%)
+2021-02-12 13:58:32,251 INFO o.a.j.r.Summariser: summary +     27 in 00:00:29 =    0.9/s Avg:     4 Min:     2 Max:    12 Err:     0 (0.00%) Active: 75 Started: 75 Finished: 0
+2021-02-12 13:58:32,253 INFO o.a.j.r.Summariser: summary =    298 in 00:03:49 =    1.3/s Avg:     6 Min:     2 Max:    59 Err:     0 (0.00%)
+2021-02-12 13:58:32,254 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-19
+2021-02-12 13:58:32,292 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-19
+2021-02-12 13:58:32,318 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-19
+2021-02-12 13:58:36,449 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-20
+2021-02-12 13:58:36,493 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-20
+2021-02-12 13:58:36,518 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-20
+2021-02-12 13:58:40,645 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-21
+2021-02-12 13:58:40,687 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-6
+2021-02-12 13:58:40,687 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-6
+2021-02-12 13:58:40,697 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-21
+2021-02-12 13:58:40,724 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-6
+2021-02-12 13:58:40,730 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-21
+2021-02-12 13:58:44,844 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-22
+2021-02-12 13:58:44,890 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-22
+2021-02-12 13:58:44,914 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-22
+2021-02-12 13:58:49,064 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-23
+2021-02-12 13:58:49,098 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-23
+2021-02-12 13:58:49,126 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-23
+2021-02-12 13:58:53,265 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-24
+2021-02-12 13:58:53,306 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-24
+2021-02-12 13:58:53,313 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-24
+2021-02-12 13:58:53,886 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-7
+2021-02-12 13:58:53,894 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-2
+2021-02-12 13:58:53,903 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-7
+2021-02-12 13:58:53,914 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-2
+2021-02-12 13:58:53,934 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-2
+2021-02-12 13:58:53,937 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-7
+2021-02-12 13:58:57,446 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-25
+2021-02-12 13:58:57,490 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-25
+2021-02-12 13:58:57,515 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-25
+2021-02-12 13:59:01,083 INFO o.a.j.r.Summariser: summary +     30 in 00:00:29 =    1.0/s Avg:     4 Min:     2 Max:    12 Err:     0 (0.00%) Active: 45 Started: 75 Finished: 30
+2021-02-12 13:59:01,084 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-8
+2021-02-12 13:59:01,084 INFO o.a.j.r.Summariser: summary =    328 in 00:04:17 =    1.3/s Avg:     6 Min:     2 Max:    59 Err:     0 (0.00%)
+2021-02-12 13:59:01,086 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-8
+2021-02-12 13:59:01,117 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-8
+2021-02-12 13:59:05,272 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-9
+2021-02-12 13:59:05,291 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-9
+2021-02-12 13:59:05,311 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-9
+2021-02-12 13:59:09,511 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-10
+2021-02-12 13:59:09,513 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-10
+2021-02-12 13:59:09,514 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-10
+2021-02-12 13:59:10,096 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-3
+2021-02-12 13:59:10,096 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-3
+2021-02-12 13:59:10,117 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-3
+2021-02-12 13:59:13,669 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-11
+2021-02-12 13:59:13,693 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-11
+2021-02-12 13:59:13,699 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-1
+2021-02-12 13:59:13,702 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-1
+2021-02-12 13:59:13,718 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-1
+2021-02-12 13:59:17,888 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-12
+2021-02-12 13:59:17,906 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-12
+2021-02-12 13:59:17,910 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-12
+2021-02-12 13:59:22,056 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-13
+2021-02-12 13:59:22,087 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-13
+2021-02-12 13:59:22,107 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-13
+2021-02-12 13:59:26,262 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-14
+2021-02-12 13:59:26,295 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-4
+2021-02-12 13:59:26,295 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-4
+2021-02-12 13:59:26,301 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-14
+2021-02-12 13:59:26,324 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-14
+2021-02-12 13:59:26,332 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-4
+2021-02-12 13:59:30,455 INFO o.a.j.r.Summariser: summary +     30 in 00:00:29 =    1.0/s Avg:     4 Min:     2 Max:    15 Err:     0 (0.00%) Active: 16 Started: 75 Finished: 59
+2021-02-12 13:59:30,456 INFO o.a.j.r.Summariser: summary =    358 in 00:04:47 =    1.2/s Avg:     6 Min:     2 Max:    59 Err:     0 (0.00%)
+2021-02-12 13:59:30,457 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-15
+2021-02-12 13:59:30,493 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-15
+2021-02-12 13:59:30,514 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-15
+2021-02-12 13:59:34,651 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-16
+2021-02-12 13:59:34,693 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-16
+2021-02-12 13:59:34,720 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-16
+2021-02-12 13:59:38,851 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-17
+2021-02-12 13:59:38,889 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-17
+2021-02-12 13:59:38,911 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-17
+2021-02-12 13:59:39,482 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-5
+2021-02-12 13:59:39,484 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-5
+2021-02-12 13:59:39,516 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-5
+2021-02-12 13:59:43,047 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Ticks 1-18
+2021-02-12 13:59:43,103 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics 2-18
+2021-02-12 13:59:43,107 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-18
+2021-02-12 13:59:43,715 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - Statistics Instruments 3-11
+2021-02-12 13:59:43,715 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Statistics Instruments 3-11
+2021-02-12 13:59:43,716 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-02-12 13:59:43,716 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@626937835
+2021-02-12 13:59:43,717 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@970805317
+2021-02-12 13:59:43,717 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1526697420
+2021-02-12 13:59:43,717 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@132760615
+2021-02-12 13:59:43,717 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@384212080
+2021-02-12 13:59:43,718 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1608009364
+2021-02-12 13:59:43,718 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1385968988
+2021-02-12 13:59:43,718 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@2064092130
+2021-02-12 13:59:43,719 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@256437673
+2021-02-12 13:59:43,719 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@241923804
+2021-02-12 13:59:43,719 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@440945229
+2021-02-12 13:59:43,719 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1737884379
+2021-02-12 13:59:43,720 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@901559032
+2021-02-12 13:59:43,720 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1103827457
+2021-02-12 13:59:43,720 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@128868661
+2021-02-12 13:59:43,720 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@526731295
+2021-02-12 13:59:43,721 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1207616472
+2021-02-12 13:59:43,721 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@953638481
+2021-02-12 13:59:43,721 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@456921378
+2021-02-12 13:59:43,721 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@710864379
+2021-02-12 13:59:43,721 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@300765719
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@2040645909
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1154393329
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1068292732
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@801256624
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1161883392
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1243014999
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@2040934178
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1172303540
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1431174163
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@590183530
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1082604819
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1182450287
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@918509454
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1981445849
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1707647980
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1070587729
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@2027035046
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@2067054465
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1024799909
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@265706333
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1480739896
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@2114981424
+2021-02-12 13:59:43,722 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@343343037
+2021-02-12 13:59:43,723 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@2076078808
+2021-02-12 13:59:43,723 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@32279792
+2021-02-12 13:59:43,723 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@850080016
+2021-02-12 13:59:43,723 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1799826607
+2021-02-12 13:59:43,723 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@2100229262
+2021-02-12 13:59:43,723 INFO o.a.j.s.FileServer: Close: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\\data\Instruments-for-Tests-LowLoad.csv@1773810545
+2021-02-12 13:59:43,724 INFO o.a.j.r.Summariser: summary +     15 in 00:00:13 =    1.1/s Avg:     3 Min:     2 Max:     8 Err:     0 (0.00%) Active: 0 Started: 75 Finished: 75
+2021-02-12 13:59:43,725 INFO o.a.j.r.Summariser: summary =    373 in 00:05:00 =    1.2/s Avg:     6 Min:     2 Max:    59 Err:     0 (0.00%)
+2021-02-12 13:59:43,728 INFO o.a.j.JMeter: Generating Dashboard
+2021-02-12 13:59:43,728 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2021-02-12 13:59:43,749 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2021-02-12 13:59:44,480 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2021-02-12 13:59:44,480 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2021-02-12 13:59:44,482 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2021-02-12 13:59:44,482 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2021-02-12 13:59:44,486 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2021-02-12 13:59:44,487 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2021-02-12 13:59:44,488 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2021-02-12 13:59:44,488 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2021-02-12 13:59:44,512 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2021-02-12 13:59:44,512 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2021-02-12 13:59:44,513 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2021-02-12 13:59:44,513 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2021-02-12 13:59:44,533 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2021-02-12 13:59:44,534 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 2611 samples
+2021-02-12 13:59:44,534 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2021-02-12 13:59:44,534 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2021-02-12 13:59:44,534 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2021-02-12 13:59:44,535 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2021-02-12 13:59:44,535 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2021-02-12 13:59:44,535 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2021-02-12 13:59:44,536 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2021-02-12 13:59:44,537 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2021-02-12 13:59:44,537 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2021-02-12 13:59:44,537 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2021-02-12 13:59:44,537 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 5595 samples
+2021-02-12 13:59:44,537 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 1119 samples
+2021-02-12 13:59:44,537 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 373 samples
+2021-02-12 13:59:44,538 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 373 samples produced in 765ms on channel 0
+2021-02-12 13:59:44,538 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2021-02-12 13:59:44,540 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2021-02-12 13:59:44,541 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2021-02-12 13:59:44,542 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2021-02-12 13:59:44,542 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2021-02-12 13:59:44,543 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\executions\D1\DESKTOP-VPGUUNH\20210212_135440\Report\statistics.json
+2021-02-12 13:59:44,699 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2021-02-12 13:59:44,702 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\executions\D1\DESKTOP-VPGUUNH\20210212_135440\Report
+2021-02-12 13:59:44,804 ERROR f.configuration: DefaultObjectWrapper.incompatibleImprovements was set to the object returned by Configuration.getVersion(). That defeats the purpose of incompatibleImprovements, and makes upgrading FreeMarker a potentially breaking change. Also, this probably won't be allowed starting from 2.4.0. Instead, set incompatibleImprovements to the highest concrete version that's known to be compatible with your application.
+2021-02-12 13:59:44,806 ERROR f.configuration: Configuration.incompatibleImprovements was set to the object returned by Configuration.getVersion(). That defeats the purpose of incompatibleImprovements, and makes upgrading FreeMarker a potentially breaking change. Also, this probably won't be allowed starting from 2.4.0. Instead, set incompatibleImprovements to the highest concrete version that's known to be compatible with your application.
+2021-02-12 13:59:44,817 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\executions\D1\DESKTOP-VPGUUNH\20210212_135440\Report, creating folder structure
+2021-02-12 13:59:44,819 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'D:\Installed\apache-jmeter-5.3\bin\report-template' to 'D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\executions\D1\DESKTOP-VPGUUNH\20210212_135440\Report', got message: D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\executions\D1\DESKTOP-VPGUUNH\20210212_135440\Report, found non empty folder with following content [D:\Projects\Solactive_RealTime_RestController\Jmeter_Performance\executions\D1\DESKTOP-VPGUUNH\20210212_135440\Report\statistics.json], will be ignored
+2021-02-12 13:59:46,878 INFO o.a.j.JMeter: Dashboard generated

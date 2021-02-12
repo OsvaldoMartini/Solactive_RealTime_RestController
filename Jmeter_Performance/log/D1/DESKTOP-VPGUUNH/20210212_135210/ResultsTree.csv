@@ -1,0 +1,19 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1613134330671,276,Statistics,200,,Thread Group - Statistics 2-1,text,true,,214,322,1,3,261,0,2
+1613134330693,272,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-1,text,true,,258,332,1,3,263,0,1
+1613134330677,370,Ticks,201,,Thread Group - Ticks 1-1,,true,,121,448,1,3,370,0,3
+1613134331864,6,Ticks,204,,Thread Group - Ticks 1-2,,true,,102,448,2,4,0,0,1
+1613134331876,9,Statistics,200,,Thread Group - Statistics 2-2,text,true,,220,322,2,5,8,0,2
+1613134331895,18,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-2,text,true,,264,332,2,6,17,0,2
+1613134333064,6,Ticks,204,,Thread Group - Ticks 1-3,,true,,102,448,3,7,0,0,1
+1613134333085,20,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-3,text,true,,264,332,3,9,12,0,1
+1613134333082,15,Statistics,200,,Thread Group - Statistics 2-3,text,true,,220,322,3,9,13,0,2
+1613134333664,4,Ticks,204,,Thread Group - Ticks 1-1,,true,,102,445,3,9,0,0,0
+1613134333670,6,Statistics,200,,Thread Group - Statistics 2-1,text,true,,220,322,3,9,4,0,0
+1613134333692,9,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-1,text,true,,258,329,3,9,8,0,0
+1613134334265,4,Ticks,204,,Thread Group - Ticks 1-4,,true,,102,448,4,10,0,0,1
+1613134334284,5,Statistics,200,,Thread Group - Statistics 2-4,text,true,,214,322,4,11,5,0,1
+1613134334294,9,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-4,text,true,,264,332,4,12,7,0,2
+1613134335464,14,Ticks,201,,Thread Group - Ticks 1-5,,true,,121,448,5,14,14,0,1
+1613134335496,8,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-5,text,true,,264,332,5,15,7,0,2
+1613134335474,12,Statistics,200,,Thread Group - Statistics 2-5,text,true,,220,322,5,14,4,0,1
