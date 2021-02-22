@@ -1,22 +1,30 @@
-# Using JArchitect to analyze *ShiftHunter Instruments Project*.
+# Using JArchitect to analyze 
 
-ShiftHunter, as one of the leading providers of financial indexes, consumes and uses real-time trading prices
-of tens of thousands of financial instruments from more than 100 exchanges over the world.
-In order to ensure integrity of our index calculation and proper input data, our operations team needs a
-restful API to monitor the incoming prices. The main use case for that API is to provide real-time price
-statistics from the last 60 seconds (sliding time interval).
+## *ShiftHunter* Instruments Project*.
+
+ - ShiftHunter, as one of the leading providers of financial indexes, 
+ consumes and uses real-time trading prices of tens of thousands of 
+ financial instruments from more than 100 exchanges over the world.
+
+ - In order to ensure integrity of our index calculation and proper input data, 
+ our operations team needs a restful API to monitor the incoming prices. 
+ 
+ The main use case for that API is to provide real-time price statistics from 
+ the last 60 seconds (sliding time interval).
+
 There will be three APIs:
-• The first one is called every time we receive a tick. It is also the sole input of this rest API.
-• The second one returns the statistics based on the ticks of all instruments of the last 60 seconds
+* The first one is called every time we receive a tick. It is also the sole input of this rest API.
+* The second one returns the statistics based on the ticks of all instruments of the last 60 seconds
 (sliding time interval)
-• The third one returns the statistics based on the ticks of one instrument of the last 60 seconds
+* The third one returns the statistics based on the ticks of one instrument of the last 60 seconds
 (sliding time interval).
-All APIs might be called in parallel. Notably; POST "/ticks" might be continuously called before
-the previous /ticks where finished.
 
-Specifications
+### All APIs might be called in parallel. Notably; POST "/ticks" might be continuously 
+### called before the previous /ticks where finished.
 
-> POST /ticks
+* Specifications
+
+* POST /ticks
 Every time a new tick arrives, this endpoint will be called. Body:
 ```
 {
