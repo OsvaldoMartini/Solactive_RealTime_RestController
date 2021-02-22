@@ -1,6 +1,6 @@
 # Using JArchitect to analyze 
 
-## *ShiftHunter* Instruments Project*.
+## *ShiftHunter* Instruments Project.
 
  - ShiftHunter, as one of the leading providers of financial indexes, 
  consumes and uses real-time trading prices of tens of thousands of 
@@ -34,14 +34,14 @@ Every time a new tick arrives, this endpoint will be called. Body:
 "timestamp": 1478192204000
 }
 ```
-** where:
-*• instrument - a financial instrument identifier (string; list of instruments is not known to our service in
+#### where:
+* • instrument - a financial instrument identifier (string; list of instruments is not known to our service in
 advance so we add them dynamically)
-*• price - current trade price of a financial instrument (double)
-*• timestamp - tick timestamp in milliseconds (long; this is not current timestamp)
+* • price - current trade price of a financial instrument (double)
+* • timestamp - tick timestamp in milliseconds (long; this is not current timestamp)
 Returns: Empty body with either 201 or 204:
-*• 201 - in case of success
-*• 204 - if tick is older than 60 seconds
+* • 201 - in case of success
+* • 204 - if tick is older than 60 seconds
 
 #### GET /statistics
 * This is the endpoint with aggregated statistics for all ticks across all instruments, this endpoint has to
