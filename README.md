@@ -35,17 +35,18 @@ Every time a new tick arrives, this endpoint will be called. Body:
 }
 ```
 #### where:
-* • instrument - a financial instrument identifier (string; list of instruments is not known to our service in
+* instrument - a financial instrument identifier (string; list of instruments is not known to our service in
 advance so we add them dynamically)
-* • price - current trade price of a financial instrument (double)
-* • timestamp - tick timestamp in milliseconds (long; this is not current timestamp)
-Returns: Empty body with either 201 or 204:
-* • 201 - in case of success
-* • 204 - if tick is older than 60 seconds
+* price - current trade price of a financial instrument (double)
+* timestamp - tick timestamp in milliseconds (long; this is not current timestamp)
+
+#### Returns: Empty body with either 201 or 204:
+* 201 - in case of success
+* 204 - if tick is older than 60 seconds or any other issue
 
 #### GET /statistics
 * This is the endpoint with aggregated statistics for all ticks across all instruments, this endpoint has to
-execute in constant time and memory (O(1)).
+execute in constant time and memory O(1).
 * It returns the following statistics based on the ticks which happened in the last 60 seconds (sliding time
 interval).
 
@@ -58,7 +59,7 @@ Returns:
 "count": 10
 }
 ```
-where:
+#### where:
 * avg is a double specifying the average amount of all tick prices in the last 60 seconds
 * max is a double specifying single highest tick price in the last 60 seconds
 * min is a double specifying single lowest tick price in the last 60 seconds
@@ -76,8 +77,7 @@ The response is the same as for the previous endpoint but with instrument specif
 * We kindly ask you not to use standard libraries for statistic calculation or aggregation
 * Please implement an in-memory solution. Don’t use any kind of database
 * Please pay attention to the code quality of your solution, as you would do in your daily work
-* Please provide test coverage as you deem appropriate and necessary – as you would do in your
-daily work
+* Please provide test coverage as you deem appropriate and necessary – as you would do in your daily work
 
 * GET /statistics should execute in constant time
 * GET /statistics/{instrument_identifier} should execute in constant time
