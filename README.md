@@ -19,12 +19,13 @@ There will be three APIs:
 * The third one returns the statistics based on the ticks of one instrument of the last 60 seconds
 (sliding time interval).
 
-### All APIs might be called in parallel. Notably; POST "/ticks" might be continuously 
-### called before the previous /ticks where finished.
+### All APIs might be called in parallel. Notably; 
+
+* POST "/ticks" might be continuously called before the previous /ticks where finished.
 
 * Specifications
 
-* POST /ticks
+### POST /ticks
 Every time a new tick arrives, this endpoint will be called. Body:
 ```
 {
@@ -33,15 +34,15 @@ Every time a new tick arrives, this endpoint will be called. Body:
 "timestamp": 1478192204000
 }
 ```
-where:
-• instrument - a financial instrument identifier (string; list of instruments is not known to our service in
+** where:
+*• instrument - a financial instrument identifier (string; list of instruments is not known to our service in
 advance so we add them dynamically)
-• price - current trade price of a financial instrument (double)
-• timestamp - tick timestamp in milliseconds (long; this is not current timestamp)
+*• price - current trade price of a financial instrument (double)
+*• timestamp - tick timestamp in milliseconds (long; this is not current timestamp)
 Returns: Empty body with either 201 or 204:
-• 201 - in case of success
-• 204 - if tick is older than 60 seconds
-> GET /statistics
+*• 201 - in case of success
+*• 204 - if tick is older than 60 seconds
+### GET /statistics
 This is the endpoint with aggregated statistics for all ticks across all instruments, this endpoint has to
 execute in constant time and memory (O(1)).
 It returns the following statistics based on the ticks which happened in the last 60 seconds (sliding time
