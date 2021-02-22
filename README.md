@@ -100,6 +100,20 @@ QUERIES AND RULES
 
 
 
+# Points to be Improved after JArchitect Analisys
+ 
+ ##  List of the points to improve:
+
+* To acquire lock and then to sleep usually leads to problems in high load apps (in this case increases chances of a conflict with getStatisticsAllInstruments request)
+* Because of the mentioned conflict we might have incorrect results returned by getStatisticsAllInstruments  - outdated data or empty statistics at all
+* Implementation does not seem to handle properly the case when we have multiple ticks for an instrument in the same millisecond
+* It could be quite dangerous to use maps to store each incoming tick data and clean them every second as we can have OOM at spikes
+* Interrupted exception could be improved
+* Spring bean default scope is singleton so there would be no need to make its fields static
+* Running against JArchitect code style checking tool produces unfortunately a lot of issues
+
+
+
 # Instructions for the RestController version Java 11
 
 1. **mvn clean package**
