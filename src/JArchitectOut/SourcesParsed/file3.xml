@@ -1,0 +1,62 @@
+<root><type name="com.solactive.controller.StatisticsController" s="18"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<annotations>
+<annotation name="com.solactive.controller.RestController"/>
+</annotations><field name="df2" s="21" type="java.text.DecimalFormat" vis="private"  fin ="false" sta ="true" c="0" >
+</field>
+<dm p="java.text.DecimalFormat" s="DecimalFormat(java.lang.String)"/>
+<field name="executor" s="23" type="com.solactive.ExecutorMultiRequests" vis="package"  fin ="false" sta ="false" c="0" >
+<annotations><annotation name="com.solactive.controller.Autowired"/></annotations></field>
+<method name="getStatisticsAllInstruments()" s="36" e="53" n ="false" sta ="false" sync ="false" vis="public" return="com.solactive.controller.ResponseEntity"  signature="()"><annotations><annotation name="com.solactive.controller.RequestMapping"/></annotations><dm p="java.util.concurrent.locks.Lock" s="tryLock()"/>
+<dm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="getLockObject()"/>
+<dm p="com.solactive.pojos.StatisticsDTO" s="setAvg(double)"/>
+<dm p="java.lang.Double" s="parseDouble(java.lang.String)"/>
+<dm p="java.text.NumberFormat" s="format(double)"/>
+<dm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="getAvg()"/>
+<dm p="com.solactive.pojos.StatisticsDTO" s="setMax(double)"/>
+<dm p="java.lang.Double" s="parseDouble(java.lang.String)"/>
+<dm p="java.text.NumberFormat" s="format(double)"/>
+<dm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="getMax()"/>
+<dm p="com.solactive.pojos.StatisticsDTO" s="setMin(double)"/>
+<dm p="java.lang.Double" s="parseDouble(java.lang.String)"/>
+<dm p="java.text.NumberFormat" s="format(double)"/>
+<dm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="getMin()"/>
+<dm p="com.solactive.pojos.StatisticsDTO" s="setCount(long)"/>
+<dm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="getCount()"/>
+<dm p="java.util.concurrent.locks.Lock" s="unlock()"/>
+<dm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="getLockObject()"/>
+<dm p="java.lang.Object" s="Object()"/>
+<metrics cc="2" cm="0" vars="0" loc="8"/></method><method name="getStatisticsByInstrument(java.lang.String)" s="63" e="99" n ="false" sta ="false" sync ="false" vis="public" return="com.solactive.controller.ResponseEntity"  signature="(java.lang.String)"><annotations><annotation name="com.solactive.controller.RequestMapping"/></annotations><params><param type="java.lang.String"/></params><dm p="java.util.Map" s="get(java.lang.Object)"/>
+<dm p="java.util.stream.Stream" s="collect(java.util.stream.Collector)"/>
+<dm p="java.util.Collection" s="stream()"/>
+<dm p="java.util.stream.Collectors" s="averagingDouble(java.util.function.ToDoubleFunction)"/>
+<dm p="com.solactive.pojos.TicksDTO" s="getPrice()"/>
+<dm p="java.util.Optional" s="get()"/>
+<dm p="java.util.stream.Stream" s="collect(java.util.stream.Collector)"/>
+<dm p="java.util.Collection" s="stream()"/>
+<dm p="java.util.stream.Collectors" s="minBy(java.util.Comparator)"/>
+<dm p="java.util.Comparator" s="comparingDouble(java.util.function.ToDoubleFunction)"/>
+<dm p="java.util.Optional" s="get()"/>
+<dm p="java.util.stream.Stream" s="collect(java.util.stream.Collector)"/>
+<dm p="java.util.Collection" s="stream()"/>
+<dm p="java.util.stream.Collectors" s="maxBy(java.util.Comparator)"/>
+<dm p="java.util.Comparator" s="comparingDouble(java.util.function.ToDoubleFunction)"/>
+<dm p="com.solactive.pojos.StatisticsDTO" s="setAvg(double)"/>
+<dm p="java.lang.Double" s="parseDouble(java.lang.String)"/>
+<dm p="java.text.Format" s="format(java.lang.Object)"/>
+<dm p="com.solactive.pojos.StatisticsDTO" s="setMax(double)"/>
+<dm p="java.lang.Double" s="parseDouble(java.lang.String)"/>
+<dm p="java.text.Format" s="format(java.lang.Object)"/>
+<dm p="com.solactive.pojos.TicksDTO" s="getPrice()"/>
+<dm p="com.solactive.pojos.StatisticsDTO" s="setMin(double)"/>
+<dm p="java.lang.Double" s="parseDouble(java.lang.String)"/>
+<dm p="java.text.Format" s="format(java.lang.Object)"/>
+<dm p="com.solactive.pojos.TicksDTO" s="getPrice()"/>
+<dm p="com.solactive.pojos.StatisticsDTO" s="setCount(long)"/>
+<dm p="java.util.List" s="size()"/>
+<dm p="com.solactive.pojos.StatisticsDTO" s="setAvg(double)"/>
+<dm p="com.solactive.pojos.StatisticsDTO" s="setMax(double)"/>
+<dm p="com.solactive.pojos.StatisticsDTO" s="setMin(double)"/>
+<dm p="com.solactive.pojos.StatisticsDTO" s="setCount(long)"/>
+<dm p="java.lang.Object" s="Object()"/>
+<metrics cc="6" cm="0" vars="5" loc="15"/></method>
+</type></root>

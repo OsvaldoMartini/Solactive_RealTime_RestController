@@ -473,7 +473,8 @@
                 <stringProp name="Argument.value">{&#xd;
     &quot;instrument&quot;: &quot;${instrument}&quot;,&#xd;
     &quot;price&quot;: &quot;${price}&quot;,&#xd;
-    &quot;timeStamp&quot;: &quot;${RANDOM_TIME}&quot;&#xd;
+    &quot;timeStamp&quot;: &quot;${RANDOM_TIME}&quot;,&#xd;
+    &quot;datetime&quot;: &quot;${__dateTimeConvert(${RANDOM_TIME},,dd/MM/yyyy HH:mm:ss:SSSSSS,)}&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -550,6 +551,10 @@
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">throughputTime</stringProp>
                 <stringProp name="Header.value">${__groovy((${throughputMultiplier}*${LOCAL_TESTS})/${loadGenNumber})}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">newFormat</stringProp>
+                <stringProp name="Header.value">${__dateTimeConvert(${RANDOM_TIME},,yyyy-MM-dd-HH.mm.ss.SSSSSS,)}</stringProp>
               </elementProp>
             </collectionProp>
           </HeaderManager>

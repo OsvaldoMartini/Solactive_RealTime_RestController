@@ -1,0 +1,107 @@
+<root><type name="com.solactive.ExecutorMultiRequests" s="20"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="2" >
+<annotations>
+<annotation name="com.solactive.Service"/>
+</annotations><field name="mainMappedTick" s="31" type="java.util.Map" vis="public"  fin ="false" sta ="true" c="0" >
+</field>
+<dm p="java.util.concurrent.ConcurrentHashMap" s="ConcurrentHashMap&lt;String,TicksDTO&gt;()"/>
+<field name="grpByInstrument" s="32" type="java.util.Map" vis="public"  fin ="false" sta ="true" c="0" >
+</field>
+<dm p="java.util.concurrent.ConcurrentHashMap" s="ConcurrentHashMap&lt;String,List&lt;TicksDTO&gt;&gt;()"/>
+<field name="statisticsDTO" s="33" type="com.solactive.pojos.StatisticsDTO" vis="public"  fin ="false" sta ="true" c="0" >
+</field>
+<dm p="com.solactive.pojos.StatisticsDTO" s="StatisticsDTO()"/>
+<field name="statisticsContainer" s="34" type="com.solactive.ExecutorMultiRequests$StatisticsContainer" vis="public"  fin ="false" sta ="true" c="0" >
+</field>
+<dm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="StatisticsContainer()"/>
+<method name="ExecutorMultiRequests()" s="36" e="37" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><metrics cc="1" cm="0" vars="0" loc="0"/></method><method name="startServer()" s="39" e="43" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><annotations><annotation name="javax.annotation.PostConstruct"/></annotations><dm p="com.solactive.ExecutorMultiRequests$StatisticsUpdater" s="StatisticsUpdater(java.util.Map,java.util.Map,com.solactive.ExecutorMultiRequests$StatisticsContainer)"/>
+<dm p="java.lang.Thread" s="start()"/>
+<metrics cc="1" cm="0" vars="1" loc="2"/></method><type name="com.solactive.ExecutorMultiRequests$StatisticsUpdater" s="53"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="true" abs ="false" n ="true" c="0" >
+<extends>
+<extend  name="java.lang.Thread"></extend></extends>
+<field name="mappedTick" s="54" type="java.util.Map" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="grpByInstrument" s="55" type="java.util.Map" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="statisticsContainer" s="56" type="com.solactive.ExecutorMultiRequests$StatisticsContainer" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<method name="StatisticsUpdater(java.util.Map,java.util.Map,com.solactive.ExecutorMultiRequests$StatisticsContainer)" s="58" e="63" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.util.Map,java.util.Map,com.solactive.ExecutorMultiRequests$StatisticsContainer)"><params><param type="java.util.Map"/><param type="java.util.Map"/><param type="com.solactive.ExecutorMultiRequests$StatisticsContainer"/></params><fm p="com.solactive.ExecutorMultiRequests$StatisticsUpdater" s="mappedTick"/>
+<fm p="com.solactive.ExecutorMultiRequests$StatisticsUpdater" s="grpByInstrument"/>
+<fm p="com.solactive.ExecutorMultiRequests$StatisticsUpdater" s="statisticsContainer"/>
+<metrics cc="1" cm="0" vars="0" loc="3"/></method><method name="run()" s="65" e="103" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="java.util.concurrent.locks.Lock" s="lock()"/>
+<dm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="getLockObject()"/>
+<dm p="java.lang.Thread" s="sleep(long)"/>
+<dm p="java.time.Instant" s="toEpochMilli()"/>
+<dm p="java.time.Instant" s="minus(java.time.temporal.TemporalAmount)"/>
+<dm p="java.time.Instant" s="now()"/>
+<dm p="java.time.Duration" s="ofSeconds(long)"/>
+<dm p="java.util.Map" s="clear()"/>
+<dm p="java.util.Collection" s="removeIf(java.util.function.Predicate)"/>
+<dm p="java.util.Map" s="entrySet()"/>
+<dm p="com.solactive.pojos.TicksDTO" s="getTimeStamp()"/>
+<dm p="java.util.Map$Entry" s="getValue()"/>
+<dm p="java.util.Map" s="putAll(java.util.Map)"/>
+<dm p="java.util.stream.Stream" s="collect(java.util.stream.Collector)"/>
+<dm p="java.util.Collection" s="stream()"/>
+<dm p="java.util.Map" s="values()"/>
+<dm p="java.util.stream.Collectors" s="groupingBy(java.util.function.Function)"/>
+<dm p="com.solactive.pojos.TicksDTO" s="getInstrument()"/>
+<dm p="java.util.Map" s="size()"/>
+<dm p="com.solactive.ExecutorMultiRequests$StatisticsUpdater" s="executeCalculus(java.util.Map,com.solactive.ExecutorMultiRequests$StatisticsContainer)"/>
+<dm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="setAvg(double)"/>
+<dm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="setMax(double)"/>
+<dm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="setMin(double)"/>
+<dm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="setCount(long)"/>
+<dm p="java.util.concurrent.locks.Lock" s="unlock()"/>
+<dm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="getLockObject()"/>
+<dm p="java.lang.Thread" s="sleep(long)"/>
+<metrics cc="5" cm="0" vars="3" loc="18"/></method><method name="executeCalculus(java.util.Map,com.solactive.ExecutorMultiRequests$StatisticsContainer)" s="106" e="126" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(java.util.Map,com.solactive.ExecutorMultiRequests$StatisticsContainer)"><params><param type="java.util.Map"/><param type="com.solactive.ExecutorMultiRequests$StatisticsContainer"/></params><dm p="java.util.Map" s="size()"/>
+<dm p="java.util.stream.Stream" s="collect(java.util.stream.Collector)"/>
+<dm p="java.util.Collection" s="stream()"/>
+<dm p="java.util.Map" s="values()"/>
+<dm p="java.util.stream.Collectors" s="averagingDouble(java.util.function.ToDoubleFunction)"/>
+<dm p="com.solactive.pojos.TicksDTO" s="getPrice()"/>
+<dm p="java.util.Optional" s="get()"/>
+<dm p="java.util.stream.Stream" s="collect(java.util.stream.Collector)"/>
+<dm p="java.util.Collection" s="stream()"/>
+<dm p="java.util.Map" s="values()"/>
+<dm p="java.util.stream.Collectors" s="minBy(java.util.Comparator)"/>
+<dm p="java.util.Comparator" s="comparingDouble(java.util.function.ToDoubleFunction)"/>
+<dm p="java.util.Optional" s="get()"/>
+<dm p="java.util.stream.Stream" s="collect(java.util.stream.Collector)"/>
+<dm p="java.util.Collection" s="stream()"/>
+<dm p="java.util.Map" s="values()"/>
+<dm p="java.util.stream.Collectors" s="maxBy(java.util.Comparator)"/>
+<dm p="java.util.Comparator" s="comparingDouble(java.util.function.ToDoubleFunction)"/>
+<dm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="setAvg(double)"/>
+<dm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="setMax(double)"/>
+<dm p="com.solactive.pojos.TicksDTO" s="getPrice()"/>
+<dm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="setMin(double)"/>
+<dm p="com.solactive.pojos.TicksDTO" s="getPrice()"/>
+<dm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="setCount(long)"/>
+<dm p="java.util.Collection" s="size()"/>
+<dm p="java.util.Map" s="values()"/>
+<metrics cc="2" cm="0" vars="4" loc="8"/></method><field name="comparatorPrice" s="128" type="java.util.Comparator" vis="package"  fin ="true" sta ="false" c="0" >
+</field>
+<dm p="java.lang.Double" s="compare(double,double)"/>
+<dm p="com.solactive.pojos.TicksDTO" s="getPrice()"/>
+<dm p="com.solactive.pojos.TicksDTO" s="getPrice()"/>
+
+</type><type name="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="132"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="true" abs ="false" n ="true" c="0" >
+<field name="lockObject" s="133" type="java.util.concurrent.locks.Lock" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<dm p="java.util.concurrent.locks.ReentrantLock" s="ReentrantLock()"/>
+<field name="avg" s="135" type="double" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="max" s="136" type="double" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="min" s="137" type="double" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="count" s="138" type="long" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<method name="getLockObject()" s="140" e="142" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="java.util.concurrent.locks.Lock"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getAvg()" s="144" e="146" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="double"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="setAvg(double)" s="148" e="150" n ="false" sta ="false" sync ="false" set ="true" vis="public" return="void"  signature="(double)"><params><param type="double"/></params><fm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="avg"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getMax()" s="152" e="154" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="double"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="setMax(double)" s="156" e="158" n ="false" sta ="false" sync ="false" set ="true" vis="package" return="void"  signature="(double)"><params><param type="double"/></params><fm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="max"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getMin()" s="160" e="162" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="double"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="setMin(double)" s="164" e="166" n ="false" sta ="false" sync ="false" set ="true" vis="package" return="void"  signature="(double)"><params><param type="double"/></params><fm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="min"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getCount()" s="168" e="170" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="long"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="setCount(long)" s="172" e="174" n ="false" sta ="false" sync ="false" set ="true" vis="package" return="void"  signature="(long)"><params><param type="long"/></params><fm p="com.solactive.ExecutorMultiRequests$StatisticsContainer" s="count"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type>
+</type></root>

@@ -1,0 +1,373 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect,"trxTimeStamp"
+1617172689018,66,Ticks,204,,Thread Group - Ticks 1-1,,true,,102,535,1,3,0,0,40,2021-03-31 08:38:08.803
+1617172688993,97,Statistics,200,,Thread Group - Statistics 2-1,text,true,,214,322,1,3,91,0,65,2021-03-31 08:38:08.810
+1617172688993,97,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-1,text,true,,258,332,1,3,91,0,65,2021-03-31 08:38:08.836
+1617172689991,4,Ticks,204,,Thread Group - Ticks 1-2,,true,,102,535,2,4,0,0,1,2021-03-31 08:38:09.988
+1617172690013,5,Statistics,200,,Thread Group - Statistics 2-2,text,true,,214,322,2,5,4,0,1,2021-03-31 08:38:10.011
+1617172690038,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-2,text,true,,258,332,2,6,5,0,2,2021-03-31 08:38:10.035
+1617172691186,4,Ticks,204,,Thread Group - Ticks 1-3,,true,,102,535,3,7,0,0,1,2021-03-31 08:38:11.182
+1617172691211,3,Statistics,200,,Thread Group - Statistics 2-3,text,true,,214,322,3,8,3,0,1,2021-03-31 08:38:11.209
+1617172691239,6,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-3,text,true,,258,332,3,9,6,0,2,2021-03-31 08:38:11.235
+1617172691819,3,Statistics,200,,Thread Group - Statistics 2-1,text,true,,214,322,3,9,2,0,0,2021-03-31 08:38:09.170
+1617172691820,6,Ticks,201,,Thread Group - Ticks 1-1,,true,,121,532,3,9,6,0,0,2021-03-31 08:38:09.169
+1617172691838,7,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-1,text,true,,258,329,3,9,4,0,0,2021-03-31 08:38:09.179
+1617172692386,4,Ticks,204,,Thread Group - Ticks 1-4,,true,,102,535,4,10,0,0,2,2021-03-31 08:38:12.383
+1617172692412,4,Statistics,200,,Thread Group - Statistics 2-4,text,true,,220,322,4,11,3,0,1,2021-03-31 08:38:12.410
+1617172692440,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-4,text,true,,258,332,4,12,4,0,2,2021-03-31 08:38:12.437
+1617172693580,4,Ticks,201,,Thread Group - Ticks 1-5,,true,,121,535,5,13,4,0,2,2021-03-31 08:38:13.579
+1617172693611,4,Statistics,200,,Thread Group - Statistics 2-5,text,true,,220,322,5,14,3,0,2,2021-03-31 08:38:13.610
+1617172693639,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-5,text,true,,258,332,5,15,4,0,2,2021-03-31 08:38:13.637
+1617172694781,3,Ticks,204,,Thread Group - Ticks 1-6,,true,,102,535,6,16,0,0,1,2021-03-31 08:38:14.780
+1617172694811,3,Statistics,200,,Thread Group - Statistics 2-6,text,true,,214,322,6,17,2,0,0,2021-03-31 08:38:14.809
+1617172694839,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-6,text,true,,258,332,6,18,5,0,2,2021-03-31 08:38:14.836
+1617172695978,3,Ticks,204,,Thread Group - Ticks 1-7,,true,,102,535,7,19,0,0,1,2021-03-31 08:38:15.976
+1617172695991,5,Ticks,201,,Thread Group - Ticks 1-2,,true,,121,532,7,19,5,0,0,2021-03-31 08:38:10.034
+1617172696011,4,Statistics,200,,Thread Group - Statistics 2-7,text,true,,221,322,7,20,3,0,1,2021-03-31 08:38:16.010
+1617172696011,3,Statistics,200,,Thread Group - Statistics 2-2,text,true,,221,322,7,20,3,0,0,2021-03-31 08:38:10.041
+1617172696039,9,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-7,text,true,,264,332,7,21,8,0,3,2021-03-31 08:38:16.035
+1617172696037,7,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-2,text,true,,264,329,7,21,7,0,0,2021-03-31 08:38:10.080
+1617172697170,4,Ticks,204,,Thread Group - Ticks 1-8,,true,,102,536,8,22,0,0,1,2021-03-31 08:38:17.169
+1617172697211,4,Statistics,200,,Thread Group - Statistics 2-8,text,true,,220,323,8,23,3,0,1,2021-03-31 08:38:17.211
+1617172697237,6,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-8,text,true,,264,333,8,24,5,0,1,2021-03-31 08:38:17.236
+1617172698365,4,Ticks,204,,Thread Group - Ticks 1-9,,true,,102,536,9,25,0,0,1,2021-03-31 08:38:18.364
+1617172698411,3,Statistics,200,,Thread Group - Statistics 2-9,text,true,,220,323,9,26,2,0,1,2021-03-31 08:38:18.411
+1617172698435,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-9,text,true,,264,333,9,27,3,0,1,2021-03-31 08:38:18.435
+1617172699575,3,Ticks,204,,Thread Group - Ticks 1-10,,true,,102,536,10,28,0,0,1,2021-03-31 08:38:19.573
+1617172699612,3,Statistics,200,,Thread Group - Statistics 2-10,text,true,,220,323,10,29,3,0,1,2021-03-31 08:38:19.610
+1617172699637,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-10,text,true,,264,333,10,30,4,0,1,2021-03-31 08:38:19.635
+1617172700185,5,Ticks,201,,Thread Group - Ticks 1-3,,true,,121,533,10,30,5,0,0,2021-03-31 08:38:11.220
+1617172700211,7,Statistics,200,,Thread Group - Statistics 2-3,text,true,,220,323,10,30,6,0,0,2021-03-31 08:38:11.226
+1617172700238,8,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-3,text,true,,264,330,10,30,7,0,0,2021-03-31 08:38:11.282
+1617172700764,3,Ticks,201,,Thread Group - Ticks 1-11,,true,,121,536,11,31,3,0,1,2021-03-31 08:38:20.762
+1617172700820,8,Ticks,201,,Thread Group - Ticks 1-1,,true,,121,533,11,32,8,0,0,2021-03-31 08:38:11.863
+1617172700814,3,Statistics,200,,Thread Group - Statistics 2-11,text,true,,220,323,11,32,2,0,1,2021-03-31 08:38:20.813
+1617172700819,7,Statistics,200,,Thread Group - Statistics 2-1,text,true,,220,323,11,32,6,0,0,2021-03-31 08:38:11.863
+1617172700838,7,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-11,text,true,,264,333,11,33,6,0,1,2021-03-31 08:38:20.836
+1617172700838,6,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-1,text,true,,264,330,11,33,6,0,0,2021-03-31 08:38:11.871
+1617172701964,4,Ticks,204,,Thread Group - Ticks 1-12,,true,,102,536,12,34,0,0,1,2021-03-31 08:38:21.962
+1617172702012,3,Statistics,200,,Thread Group - Statistics 2-12,text,true,,221,323,12,35,2,0,1,2021-03-31 08:38:22.010
+1617172702037,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-12,text,true,,264,333,12,36,3,0,1,2021-03-31 08:38:22.035
+1617172703155,3,Ticks,204,,Thread Group - Ticks 1-13,,true,,102,536,13,37,0,0,1,2021-03-31 08:38:23.153
+1617172703211,3,Statistics,200,,Thread Group - Statistics 2-13,text,true,,220,323,13,38,3,0,1,2021-03-31 08:38:23.210
+1617172703237,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-13,text,true,,264,333,13,39,3,0,1,2021-03-31 08:38:23.235
+1617172704355,3,Ticks,204,,Thread Group - Ticks 1-14,,true,,102,536,14,40,0,0,1,2021-03-31 08:38:24.353
+1617172704385,5,Ticks,204,,Thread Group - Ticks 1-4,,true,,102,533,14,40,0,0,0,2021-03-31 08:38:12.418
+1617172704410,4,Statistics,200,,Thread Group - Statistics 2-14,text,true,,221,323,14,41,4,0,2,2021-03-31 08:38:24.409
+1617172704411,4,Statistics,200,,Thread Group - Statistics 2-4,text,true,,221,323,14,41,3,0,0,2021-03-31 08:38:12.427
+1617172704438,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-4,text,true,,264,330,14,42,4,0,0,2021-03-31 08:38:12.472
+1617172704438,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-14,text,true,,264,333,14,42,4,0,1,2021-03-31 08:38:24.435
+1617172705557,3,Ticks,204,,Thread Group - Ticks 1-15,,true,,102,536,15,43,0,0,1,2021-03-31 08:38:25.555
+1617172705610,2,Statistics,200,,Thread Group - Statistics 2-15,text,true,,221,323,15,44,2,0,1,2021-03-31 08:38:25.609
+1617172705637,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-15,text,true,,264,333,15,45,3,0,1,2021-03-31 08:38:25.635
+1617172706755,3,Ticks,204,,Thread Group - Ticks 1-16,,true,,102,536,16,46,0,0,1,2021-03-31 08:38:26.753
+1617172706809,2,Statistics,200,,Thread Group - Statistics 2-16,text,true,,220,323,16,47,2,0,0,2021-03-31 08:38:26.807
+1617172706836,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-16,text,true,,264,333,16,48,3,0,1,2021-03-31 08:38:26.835
+1617172707948,3,Ticks,201,,Thread Group - Ticks 1-17,,true,,121,536,17,49,3,0,1,2021-03-31 08:38:27.946
+1617172708009,4,Statistics,200,,Thread Group - Statistics 2-17,text,true,,221,323,17,50,3,0,1,2021-03-31 08:38:28.008
+1617172708038,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-17,text,true,,264,333,17,51,3,0,1,2021-03-31 08:38:28.037
+1617172708581,3,Ticks,204,,Thread Group - Ticks 1-5,,true,,102,533,17,51,0,0,0,2021-03-31 08:38:13.607
+1617172708611,3,Statistics,200,,Thread Group - Statistics 2-5,text,true,,221,323,17,51,3,0,0,2021-03-31 08:38:13.633
+1617172708638,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-5,text,true,,264,330,17,51,4,0,0,2021-03-31 08:38:13.667
+1617172709147,5,Ticks,204,,Thread Group - Ticks 1-18,,true,,102,536,18,52,0,0,1,2021-03-31 08:38:29.144
+1617172709210,5,Statistics,200,,Thread Group - Statistics 2-18,text,true,,221,323,18,53,4,0,1,2021-03-31 08:38:29.208
+1617172709240,9,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-18,text,true,,264,333,18,54,8,0,4,2021-03-31 08:38:29.237
+1617172710347,4,Ticks,201,,Thread Group - Ticks 1-19,,true,,121,536,19,55,4,0,1,2021-03-31 08:38:30.346
+1617172710411,3,Statistics,200,,Thread Group - Statistics 2-19,text,true,,221,323,19,56,2,0,1,2021-03-31 08:38:30.409
+1617172710440,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-19,text,true,,264,333,19,57,3,0,1,2021-03-31 08:38:30.436
+1617172711542,3,Ticks,201,,Thread Group - Ticks 1-20,,true,,121,536,20,58,3,0,1,2021-03-31 08:38:31.540
+1617172711611,2,Statistics,200,,Thread Group - Statistics 2-20,text,true,,221,323,20,59,2,0,0,2021-03-31 08:38:31.609
+1617172711638,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-20,text,true,,264,333,20,60,4,0,2,2021-03-31 08:38:31.636
+1617172712744,4,Ticks,201,,Thread Group - Ticks 1-21,,true,,121,536,21,61,4,0,1,2021-03-31 08:38:32.743
+1617172712782,3,Ticks,201,,Thread Group - Ticks 1-6,,true,,121,533,21,61,3,0,0,2021-03-31 08:38:14.801
+1617172712811,3,Statistics,200,,Thread Group - Statistics 2-21,text,true,,220,323,21,62,3,0,1,2021-03-31 08:38:32.809
+1617172712811,6,Statistics,200,,Thread Group - Statistics 2-6,text,true,,220,323,21,62,3,0,0,2021-03-31 08:38:14.832
+1617172712840,9,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-6,text,true,,264,330,21,63,8,0,0,2021-03-31 08:38:14.872
+1617172712842,11,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-21,text,true,,264,333,21,63,10,0,5,2021-03-31 08:38:32.836
+1617172713939,5,Ticks,204,,Thread Group - Ticks 1-22,,true,,102,536,22,64,0,0,2,2021-03-31 08:38:33.938
+1617172714008,3,Statistics,200,,Thread Group - Statistics 2-22,text,true,,222,323,22,65,3,0,1,2021-03-31 08:38:34.008
+1617172714036,2,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-22,text,true,,264,333,22,66,2,0,0,2021-03-31 08:38:34.035
+1617172715140,7,Ticks,204,,Thread Group - Ticks 1-23,,true,,102,536,23,67,0,0,3,2021-03-31 08:38:35.140
+1617172715210,4,Statistics,200,,Thread Group - Statistics 2-23,text,true,,222,323,23,68,3,0,1,2021-03-31 08:38:35.210
+1617172715256,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-23,text,true,,264,333,23,69,4,0,2,2021-03-31 08:38:35.256
+1617172716341,3,Ticks,201,,Thread Group - Ticks 1-24,,true,,121,536,24,70,3,0,1,2021-03-31 08:38:36.340
+1617172716410,4,Statistics,200,,Thread Group - Statistics 2-24,text,true,,221,323,24,71,4,0,2,2021-03-31 08:38:36.409
+1617172716436,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-24,text,true,,264,333,24,72,3,0,1,2021-03-31 08:38:36.435
+1617172716978,3,Ticks,201,,Thread Group - Ticks 1-7,,true,,121,533,24,72,3,0,0,2021-03-31 08:38:16.013
+1617172716991,7,Ticks,204,,Thread Group - Ticks 1-2,,true,,102,533,24,72,0,0,0,2021-03-31 08:38:16.026
+1617172717012,6,Statistics,200,,Thread Group - Statistics 2-2,text,true,,221,323,24,72,5,0,0,2021-03-31 08:38:16.045
+1617172717011,8,Statistics,200,,Thread Group - Statistics 2-7,text,true,,221,323,24,72,6,0,0,2021-03-31 08:38:16.044
+1617172717037,8,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-7,text,true,,264,330,24,72,6,0,0,2021-03-31 08:38:16.092
+1617172717037,27,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-2,text,true,,264,330,24,72,6,0,0,2021-03-31 08:38:16.092
+1617172717539,3,Ticks,201,,Thread Group - Ticks 1-25,,true,,121,536,25,73,3,0,1,2021-03-31 08:38:37.538
+1617172717608,3,Statistics,200,,Thread Group - Statistics 2-25,text,true,,221,323,25,74,3,0,1,2021-03-31 08:38:37.608
+1617172717638,7,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-25,text,true,,264,333,25,75,6,0,2,2021-03-31 08:38:37.635
+1617172721170,5,Ticks,204,,Thread Group - Ticks 1-8,,true,,102,533,25,75,0,0,0,2021-03-31 08:38:17.200
+1617172721211,7,Statistics,200,,Thread Group - Statistics 2-8,text,true,,222,323,25,75,4,0,0,2021-03-31 08:38:17.248
+1617172721237,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-8,text,true,,264,330,25,75,3,0,0,2021-03-31 08:38:17.255
+1617172725366,10,Ticks,201,,Thread Group - Ticks 1-9,,true,,121,533,25,75,10,0,0,2021-03-31 08:38:18.392
+1617172725411,3,Statistics,200,,Thread Group - Statistics 2-9,text,true,,221,323,25,75,2,0,0,2021-03-31 08:38:18.436
+1617172725436,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-9,text,true,,264,330,25,75,4,0,0,2021-03-31 08:38:18.466
+1617172729575,4,Ticks,204,,Thread Group - Ticks 1-10,,true,,102,533,25,75,0,0,0,2021-03-31 08:38:19.597
+1617172729610,4,Statistics,200,,Thread Group - Statistics 2-10,text,true,,221,323,25,75,3,0,0,2021-03-31 08:38:19.636
+1617172729636,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-10,text,true,,264,330,25,75,4,0,0,2021-03-31 08:38:19.667
+1617172730185,4,Ticks,201,,Thread Group - Ticks 1-3,,true,,121,533,25,75,4,0,0,2021-03-31 08:38:20.208
+1617172730211,3,Statistics,200,,Thread Group - Statistics 2-3,text,true,,221,323,25,75,2,0,0,2021-03-31 08:38:20.247
+1617172730238,6,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-3,text,true,,258,330,25,75,5,0,0,2021-03-31 08:38:20.256
+1617172733764,3,Ticks,201,,Thread Group - Ticks 1-11,,true,,121,533,25,75,3,0,0,2021-03-31 08:38:20.787
+1617172733819,4,Ticks,204,,Thread Group - Ticks 1-1,,true,,102,532,25,75,0,0,0,2021-03-31 08:38:20.841
+1617172733814,2,Statistics,200,,Thread Group - Statistics 2-11,text,true,,214,323,25,75,2,0,0,2021-03-31 08:38:20.841
+1617172733819,9,Statistics,200,,Thread Group - Statistics 2-1,text,true,,214,323,25,75,3,0,0,2021-03-31 08:38:20.841
+1617172733838,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-11,text,true,,264,330,25,75,5,0,0,2021-03-31 08:38:20.867
+1617172733838,7,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-1,text,true,,264,329,25,75,5,0,0,2021-03-31 08:38:20.867
+1617172737964,5,Ticks,201,,Thread Group - Ticks 1-12,,true,,121,533,25,75,5,0,0,2021-03-31 08:38:21.988
+1617172738010,8,Statistics,200,,Thread Group - Statistics 2-12,text,true,,221,323,25,75,7,0,0,2021-03-31 08:38:22.039
+1617172738037,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-12,text,true,,264,330,25,75,5,0,0,2021-03-31 08:38:22.062
+1617172742155,7,Ticks,204,,Thread Group - Ticks 1-13,,true,,102,533,25,75,0,0,0,2021-03-31 08:38:23.181
+1617172742211,10,Statistics,200,,Thread Group - Statistics 2-13,text,true,,221,323,25,75,5,0,0,2021-03-31 08:38:23.237
+1617172742253,24,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-13,text,true,,264,330,25,75,14,0,0,2021-03-31 08:38:23.261
+1617172746356,16,Ticks,204,,Thread Group - Ticks 1-14,,true,,102,533,25,75,0,0,0,2021-03-31 08:38:24.373
+1617172746385,11,Ticks,204,,Thread Group - Ticks 1-4,,true,,102,533,25,75,0,0,0,2021-03-31 08:38:24.407
+1617172746412,5,Statistics,200,,Thread Group - Statistics 2-4,text,true,,220,323,25,75,4,0,0,2021-03-31 08:38:24.440
+1617172746411,4,Statistics,200,,Thread Group - Statistics 2-14,text,true,,220,323,25,75,4,0,0,2021-03-31 08:38:24.440
+1617172746437,10,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-14,text,true,,264,330,25,75,9,0,0,2021-03-31 08:38:24.471
+1617172746440,11,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-4,text,true,,264,330,25,75,7,0,0,2021-03-31 08:38:24.471
+1617172750557,5,Ticks,204,,Thread Group - Ticks 1-15,,true,,102,533,25,75,0,0,0,2021-03-31 08:38:25.579
+1617172750637,21,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-15,text,true,,264,330,25,75,20,0,0,2021-03-31 08:38:25.660
+1617172750610,8,Statistics,200,,Thread Group - Statistics 2-15,text,true,,221,323,25,75,7,0,0,2021-03-31 08:38:25.632
+1617172754755,4,Ticks,204,,Thread Group - Ticks 1-16,,true,,102,533,25,75,0,0,0,2021-03-31 08:38:26.776
+1617172754808,8,Statistics,200,,Thread Group - Statistics 2-16,text,true,,220,323,25,75,5,0,0,2021-03-31 08:38:26.828
+1617172754837,9,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-16,text,true,,264,330,25,75,7,0,0,2021-03-31 08:38:26.861
+1617172758947,5,Ticks,201,,Thread Group - Ticks 1-17,,true,,121,533,25,75,5,0,0,2021-03-31 08:38:27.973
+1617172759008,4,Statistics,200,,Thread Group - Statistics 2-17,text,true,,221,323,25,75,4,0,0,2021-03-31 08:38:28.034
+1617172759040,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-17,text,true,,264,330,25,75,5,0,0,2021-03-31 08:38:28.059
+1617172759612,6,Statistics,200,,Thread Group - Statistics 2-5,text,true,,221,323,25,75,5,0,2,2021-03-31 08:38:28.640
+1617172759582,12,Ticks,201,,Thread Group - Ticks 1-5,,true,,121,533,25,75,12,0,3,2021-03-31 08:38:28.605
+1617172759638,14,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-5,text,true,,264,330,25,75,10,0,5,2021-03-31 08:38:28.664
+1617172763146,5,Ticks,204,,Thread Group - Ticks 1-18,,true,,102,533,25,75,0,0,0,2021-03-31 08:38:29.183
+1617172763209,5,Statistics,200,,Thread Group - Statistics 2-18,text,true,,221,323,25,75,4,0,0,2021-03-31 08:38:29.242
+1617172763239,6,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-18,text,true,,264,330,25,75,5,0,0,2021-03-31 08:38:29.281
+1617172767349,5,Ticks,204,,Thread Group - Ticks 1-19,,true,,102,533,25,75,0,0,0,2021-03-31 08:38:30.369
+1617172767411,7,Statistics,200,,Thread Group - Statistics 2-19,text,true,,220,323,25,75,6,0,0,2021-03-31 08:38:30.428
+1617172767439,6,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-19,text,true,,264,330,25,75,5,0,0,2021-03-31 08:38:30.461
+1617172771542,6,Ticks,204,,Thread Group - Ticks 1-20,,true,,102,533,25,75,0,0,2,2021-03-31 08:38:31.562
+1617172771610,7,Statistics,200,,Thread Group - Statistics 2-20,text,true,,220,323,25,75,6,0,2,2021-03-31 08:38:31.631
+1617172771638,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-20,text,true,,264,330,25,75,4,0,2,2021-03-31 08:38:31.663
+1617172775744,3,Ticks,201,,Thread Group - Ticks 1-21,,true,,121,533,25,75,3,0,1,2021-03-31 08:38:32.764
+1617172775781,3,Ticks,204,,Thread Group - Ticks 1-6,,true,,102,533,25,75,0,0,1,2021-03-31 08:38:32.802
+1617172775810,2,Statistics,200,,Thread Group - Statistics 2-6,text,true,,220,323,25,75,2,0,1,2021-03-31 08:38:32.853
+1617172775809,6,Statistics,200,,Thread Group - Statistics 2-21,text,true,,220,323,25,75,3,0,1,2021-03-31 08:38:32.851
+1617172775838,6,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-21,text,true,,264,330,25,75,5,0,2,2021-03-31 08:38:32.882
+1617172775838,10,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-6,text,true,,264,330,25,75,5,0,2,2021-03-31 08:38:32.863
+1617172779940,5,Ticks,201,,Thread Group - Ticks 1-22,,true,,121,533,25,75,5,0,2,2021-03-31 08:38:33.965
+1617172780009,4,Statistics,200,,Thread Group - Statistics 2-22,text,true,,220,323,25,75,3,0,1,2021-03-31 08:38:34.031
+1617172780036,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-22,text,true,,264,330,25,75,2,0,1,2021-03-31 08:38:34.057
+1617172784141,4,Ticks,201,,Thread Group - Ticks 1-23,,true,,121,533,25,75,4,0,1,2021-03-31 08:38:35.165
+1617172784211,9,Statistics,200,,Thread Group - Statistics 2-23,text,true,,220,323,25,75,9,0,5,2021-03-31 08:38:35.257
+1617172784257,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-23,text,true,,264,330,25,75,4,0,1,2021-03-31 08:38:35.285
+1617172788342,4,Ticks,204,,Thread Group - Ticks 1-24,,true,,102,533,25,75,0,0,1,2021-03-31 08:38:36.368
+1617172788409,3,Statistics,200,,Thread Group - Statistics 2-24,text,true,,220,323,25,75,2,0,1,2021-03-31 08:38:36.437
+1617172788437,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-24,text,true,,264,330,25,75,3,0,1,2021-03-31 08:38:36.462
+1617172788979,18,Ticks,204,,Thread Group - Ticks 1-7,,true,,102,533,25,75,0,0,6,2021-03-31 08:38:37.000
+1617172788992,22,Ticks,204,,Thread Group - Ticks 1-2,,true,,102,532,25,75,0,0,4,2021-03-31 08:38:37.028
+1617172789011,16,Statistics,200,,Thread Group - Statistics 2-7,text,true,,220,323,25,75,10,0,4,2021-03-31 08:38:37.058
+1617172789021,24,Statistics,200,,Thread Group - Statistics 2-2,text,true,,220,323,25,75,20,0,6,2021-03-31 08:38:37.031
+1617172789041,16,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-7,text,true,,258,330,25,75,13,0,2,2021-03-31 08:38:37.078
+1617172789041,21,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-2,text,true,,258,329,25,75,15,0,2,2021-03-31 08:38:37.091
+1617172792541,3,Ticks,204,,Thread Group - Ticks 1-25,,true,,102,533,25,75,0,0,1,2021-03-31 08:38:37.559
+1617172792609,3,Statistics,200,,Thread Group - Statistics 2-25,text,true,,220,323,25,75,2,0,1,2021-03-31 08:38:37.626
+1617172792638,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-25,text,true,,264,330,25,75,4,0,3,2021-03-31 08:38:37.671
+1617172796170,5,Ticks,204,,Thread Group - Ticks 1-8,,true,,102,533,25,75,0,0,1,2021-03-31 08:38:41.189
+1617172796212,3,Statistics,200,,Thread Group - Statistics 2-8,text,true,,220,323,25,75,2,0,1,2021-03-31 08:38:41.237
+1617172796238,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-8,text,true,,258,330,25,75,4,0,1,2021-03-31 08:38:41.255
+1617172800365,4,Ticks,204,,Thread Group - Ticks 1-9,,true,,102,533,25,75,0,0,2,2021-03-31 08:38:45.399
+1617172800412,8,Statistics,200,,Thread Group - Statistics 2-9,text,true,,214,323,25,75,8,0,5,2021-03-31 08:38:45.431
+1617172800437,6,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-9,text,true,,258,330,25,75,5,0,2,2021-03-31 08:38:45.456
+1617172804575,3,Ticks,204,,Thread Group - Ticks 1-10,,true,,102,533,25,75,0,0,1,2021-03-31 08:38:49.594
+1617172804611,5,Statistics,200,,Thread Group - Statistics 2-10,text,true,,220,323,25,75,4,0,1,2021-03-31 08:38:49.627
+1617172804637,8,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-10,text,true,,258,330,25,75,7,0,1,2021-03-31 08:38:49.659
+1617172805186,4,Ticks,204,,Thread Group - Ticks 1-3,,true,,102,532,25,75,0,0,1,2021-03-31 08:38:50.206
+1617172805211,3,Statistics,200,,Thread Group - Statistics 2-3,text,true,,220,323,25,75,3,0,1,2021-03-31 08:38:50.228
+1617172805238,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-3,text,true,,258,329,25,75,4,0,1,2021-03-31 08:38:50.257
+1617172808764,4,Ticks,204,,Thread Group - Ticks 1-11,,true,,102,533,25,75,0,0,1,2021-03-31 08:38:53.782
+1617172808813,3,Statistics,200,,Thread Group - Statistics 2-11,text,true,,214,323,25,75,3,0,1,2021-03-31 08:38:53.834
+1617172808818,4,Statistics,200,,Thread Group - Statistics 2-1,text,true,,214,323,25,75,4,0,2,2021-03-31 08:38:53.834
+1617172808819,3,Ticks,204,,Thread Group - Ticks 1-1,,true,,102,533,25,75,0,0,1,2021-03-31 08:38:53.834
+1617172808837,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-11,text,true,,258,330,25,75,3,0,1,2021-03-31 08:38:53.864
+1617172808837,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-1,text,true,,258,330,25,75,3,0,1,2021-03-31 08:38:53.864
+1617172812964,3,Ticks,204,,Thread Group - Ticks 1-12,,true,,102,533,25,75,0,0,1,2021-03-31 08:38:57.990
+1617172813011,2,Statistics,200,,Thread Group - Statistics 2-12,text,true,,214,323,25,75,2,0,0,2021-03-31 08:38:58.039
+1617172813036,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-12,text,true,,258,330,25,75,3,0,1,2021-03-31 08:38:58.066
+1617172817156,12,Ticks,204,,Thread Group - Ticks 1-13,,true,,102,533,25,75,0,0,4,2021-03-31 08:39:02.216
+1617172817211,2,Statistics,200,,Thread Group - Statistics 2-13,text,true,,214,323,25,75,2,0,1,2021-03-31 08:39:02.290
+1617172817237,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-13,text,true,,258,330,25,75,3,0,1,2021-03-31 08:39:02.297
+1617172821355,4,Ticks,204,,Thread Group - Ticks 1-14,,true,,102,533,25,75,0,0,1,2021-03-31 08:39:06.385
+1617172821385,3,Ticks,204,,Thread Group - Ticks 1-4,,true,,102,532,25,75,0,0,1,2021-03-31 08:39:06.414
+1617172821409,4,Statistics,200,,Thread Group - Statistics 2-14,text,true,,214,323,25,75,4,0,2,2021-03-31 08:39:06.442
+1617172821411,4,Statistics,200,,Thread Group - Statistics 2-4,text,true,,214,323,25,75,4,0,2,2021-03-31 08:39:06.442
+1617172821437,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-14,text,true,,258,330,25,75,2,0,0,2021-03-31 08:39:06.467
+1617172821438,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-4,text,true,,258,329,25,75,3,0,1,2021-03-31 08:39:06.470
+1617172825556,4,Ticks,204,,Thread Group - Ticks 1-15,,true,,102,533,25,75,0,0,2,2021-03-31 08:39:10.591
+1617172825609,4,Statistics,200,,Thread Group - Statistics 2-15,text,true,,214,323,25,75,3,0,1,2021-03-31 08:39:10.704
+1617172825635,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-15,text,true,,258,330,25,75,3,0,1,2021-03-31 08:39:10.702
+1617172829756,3,Ticks,204,,Thread Group - Ticks 1-16,,true,,102,533,25,75,0,0,1,2021-03-31 08:39:14.793
+1617172829809,4,Statistics,200,,Thread Group - Statistics 2-16,text,true,,214,323,25,75,3,0,2,2021-03-31 08:39:14.852
+1617172829837,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-16,text,true,,258,330,25,75,3,0,1,2021-03-31 08:39:14.862
+1617172833947,5,Ticks,204,,Thread Group - Ticks 1-17,,true,,102,533,25,75,0,0,2,2021-03-31 08:39:18.975
+1617172834010,4,Statistics,200,,Thread Group - Statistics 2-17,text,true,,214,323,25,75,4,0,2,2021-03-31 08:39:19.030
+1617172834038,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-17,text,true,,258,330,25,75,4,0,1,2021-03-31 08:39:19.061
+1617172834582,5,Ticks,204,,Thread Group - Ticks 1-5,,true,,102,532,25,75,0,0,2,2021-03-31 08:39:19.634
+1617172834613,8,Statistics,200,,Thread Group - Statistics 2-5,text,true,,214,323,25,75,7,0,5,2021-03-31 08:39:19.633
+1617172834638,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-5,text,true,,258,329,25,75,4,0,1,2021-03-31 08:39:19.683
+1617172838146,10,Ticks,204,,Thread Group - Ticks 1-18,,true,,102,533,25,75,0,0,1,2021-03-31 08:39:23.173
+1617172838209,4,Statistics,200,,Thread Group - Statistics 2-18,text,true,,214,323,25,75,3,0,1,2021-03-31 08:39:23.232
+1617172838238,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-18,text,true,,258,330,25,75,4,0,1,2021-03-31 08:39:23.271
+1617172842348,4,Ticks,204,,Thread Group - Ticks 1-19,,true,,102,533,25,75,0,0,1,2021-03-31 08:39:27.373
+1617172842412,3,Statistics,200,,Thread Group - Statistics 2-19,text,true,,214,323,25,75,3,0,1,2021-03-31 08:39:27.438
+1617172842442,6,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-19,text,true,,258,330,25,75,6,0,3,2021-03-31 08:39:27.467
+1617172846545,23,Ticks,204,,Thread Group - Ticks 1-20,,true,,102,533,25,75,0,0,8,2021-03-31 08:39:31.578
+1617172846610,4,Statistics,200,,Thread Group - Statistics 2-20,text,true,,214,323,25,75,4,0,2,2021-03-31 08:39:31.643
+1617172846638,7,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-20,text,true,,258,330,25,75,5,0,1,2021-03-31 08:39:31.646
+1617172850748,6,Ticks,204,,Thread Group - Ticks 1-21,,true,,102,533,25,75,0,0,3,2021-03-31 08:39:35.763
+1617172850783,4,Ticks,204,,Thread Group - Ticks 1-6,,true,,102,532,25,75,0,0,1,2021-03-31 08:39:35.804
+1617172850811,7,Statistics,200,,Thread Group - Statistics 2-21,text,true,,214,323,25,75,7,0,2,2021-03-31 08:39:35.834
+1617172850811,8,Statistics,200,,Thread Group - Statistics 2-6,text,true,,214,323,25,75,7,0,2,2021-03-31 08:39:35.833
+1617172850838,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-21,text,true,,258,330,25,75,4,0,1,2021-03-31 08:39:35.870
+1617172850839,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-6,text,true,,258,329,25,75,3,0,1,2021-03-31 08:39:35.874
+1617172854939,3,Ticks,204,,Thread Group - Ticks 1-22,,true,,102,533,25,75,0,0,1,2021-03-31 08:39:39.966
+1617172855009,3,Statistics,200,,Thread Group - Statistics 2-22,text,true,,214,323,25,75,2,0,1,2021-03-31 08:39:40.029
+1617172855036,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-22,text,true,,258,330,25,75,2,0,0,2021-03-31 08:39:40.054
+1617172859141,4,Ticks,204,,Thread Group - Ticks 1-23,,true,,102,533,25,75,0,0,2,2021-03-31 08:39:44.169
+1617172859211,3,Statistics,200,,Thread Group - Statistics 2-23,text,true,,214,323,25,75,3,0,1,2021-03-31 08:39:44.250
+1617172859258,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-23,text,true,,258,330,25,75,4,0,2,2021-03-31 08:39:44.286
+1617172863343,13,Ticks,204,,Thread Group - Ticks 1-24,,true,,102,533,25,75,0,0,5,2021-03-31 08:39:48.370
+1617172863411,12,Statistics,200,,Thread Group - Statistics 2-24,text,true,,214,323,25,75,9,0,4,2021-03-31 08:39:48.442
+1617172863437,7,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-24,text,true,,258,330,25,75,6,0,2,2021-03-31 08:39:48.446
+1617172863979,3,Ticks,204,,Thread Group - Ticks 1-7,,true,,102,532,25,75,0,0,1,2021-03-31 08:39:49.047
+1617172863991,3,Ticks,204,,Thread Group - Ticks 1-2,,true,,102,533,25,75,0,0,1,2021-03-31 08:39:49.055
+1617172864012,3,Statistics,200,,Thread Group - Statistics 2-7,text,true,,214,323,25,75,2,0,1,2021-03-31 08:39:49.095
+1617172864013,2,Statistics,200,,Thread Group - Statistics 2-2,text,true,,214,323,25,75,1,0,0,2021-03-31 08:39:49.101
+1617172864037,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-7,text,true,,258,329,25,75,3,0,1,2021-03-31 08:39:49.110
+1617172864037,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-2,text,true,,258,330,25,75,3,0,1,2021-03-31 08:39:49.112
+1617172867539,3,Ticks,204,,Thread Group - Ticks 1-25,,true,,102,533,25,75,0,0,1,2021-03-31 08:39:52.559
+1617172867609,5,Statistics,200,,Thread Group - Statistics 2-25,text,true,,214,323,25,75,4,0,2,2021-03-31 08:39:52.629
+1617172867638,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-25,text,true,,258,330,25,75,2,0,1,2021-03-31 08:39:52.662
+1617172871171,3,Ticks,204,,Thread Group - Ticks 1-8,,true,,102,532,25,75,0,0,1,2021-03-31 08:39:56.188
+1617172871211,2,Statistics,200,,Thread Group - Statistics 2-8,text,true,,214,323,25,75,2,0,1,2021-03-31 08:39:56.228
+1617172871237,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-8,text,true,,258,329,25,75,2,0,1,2021-03-31 08:39:56.266
+1617172875365,6,Ticks,204,,Thread Group - Ticks 1-9,,true,,102,532,25,75,0,0,2,2021-03-31 08:40:00.405
+1617172875411,3,Statistics,200,,Thread Group - Statistics 2-9,text,true,,214,323,25,75,3,0,1,2021-03-31 08:40:00.456
+1617172875436,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-9,text,true,,258,329,25,75,3,0,2,2021-03-31 08:40:00.456
+1617172879575,3,Ticks,204,,Thread Group - Ticks 1-10,,true,,102,532,25,75,0,0,1,2021-03-31 08:40:04.599
+1617172879611,2,Statistics,200,,Thread Group - Statistics 2-10,text,true,,214,323,25,75,2,0,1,2021-03-31 08:40:04.632
+1617172879636,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-10,text,true,,258,329,25,75,3,0,1,2021-03-31 08:40:04.665
+1617172880185,4,Ticks,204,,Thread Group - Ticks 1-3,,true,,102,533,25,75,0,0,1,2021-03-31 08:40:05.206
+1617172880211,3,Statistics,200,,Thread Group - Statistics 2-3,text,true,,214,323,25,75,3,0,1,2021-03-31 08:40:05.232
+1617172880238,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-3,text,true,,258,330,25,75,4,0,1,2021-03-31 08:40:05.263
+1617172883764,3,Ticks,204,,Thread Group - Ticks 1-11,,true,,102,532,25,75,0,0,1,2021-03-31 08:40:08.777
+1617172883819,4,Ticks,204,,Thread Group - Ticks 1-1,,true,,102,533,25,75,0,0,1,2021-03-31 08:40:08.830
+1617172883819,3,Statistics,200,,Thread Group - Statistics 2-1,text,true,,214,323,25,75,2,0,1,2021-03-31 08:40:08.830
+1617172883814,10,Statistics,200,,Thread Group - Statistics 2-11,text,true,,214,323,25,75,9,0,7,2021-03-31 08:40:08.828
+1617172883838,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-1,text,true,,258,330,25,75,4,0,1,2021-03-31 08:40:08.850
+1617172883838,6,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-11,text,true,,258,329,25,75,4,0,1,2021-03-31 08:40:08.850
+1617172887966,4,Ticks,204,,Thread Group - Ticks 1-12,,true,,102,532,25,75,0,0,1,2021-03-31 08:40:12.977
+1617172888012,3,Statistics,200,,Thread Group - Statistics 2-12,text,true,,214,323,25,75,2,0,1,2021-03-31 08:40:13.023
+1617172888038,2,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-12,text,true,,258,329,25,75,2,0,1,2021-03-31 08:40:13.049
+1617172892155,4,Ticks,204,,Thread Group - Ticks 1-13,,true,,102,532,25,75,0,0,1,2021-03-31 08:40:17.183
+1617172892210,5,Statistics,200,,Thread Group - Statistics 2-13,text,true,,214,323,25,75,3,0,2,2021-03-31 08:40:17.225
+1617172892236,11,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-13,text,true,,258,329,25,75,10,0,9,2021-03-31 08:40:17.254
+1617172896355,4,Ticks,204,,Thread Group - Ticks 1-14,,true,,102,532,25,75,0,0,1,2021-03-31 08:40:21.369
+1617172896386,3,Ticks,204,,Thread Group - Ticks 1-4,,true,,102,533,25,75,0,0,0,2021-03-31 08:40:21.398
+1617172896409,3,Statistics,200,,Thread Group - Statistics 2-14,text,true,,214,323,25,75,3,0,1,2021-03-31 08:40:21.425
+1617172896411,3,Statistics,200,,Thread Group - Statistics 2-4,text,true,,214,323,25,75,3,0,1,2021-03-31 08:40:21.425
+1617172896437,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-14,text,true,,258,329,25,75,5,0,1,2021-03-31 08:40:21.451
+1617172896438,6,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-4,text,true,,258,330,25,75,6,0,2,2021-03-31 08:40:21.451
+1617172900558,4,Ticks,204,,Thread Group - Ticks 1-15,,true,,102,532,25,75,0,0,1,2021-03-31 08:40:25.571
+1617172900611,5,Statistics,200,,Thread Group - Statistics 2-15,text,true,,214,323,25,75,4,0,2,2021-03-31 08:40:25.623
+1617172900637,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-15,text,true,,258,329,25,75,2,0,1,2021-03-31 08:40:25.648
+1617172904755,3,Ticks,204,,Thread Group - Ticks 1-16,,true,,102,532,25,75,0,0,1,2021-03-31 08:40:29.774
+1617172904809,3,Statistics,200,,Thread Group - Statistics 2-16,text,true,,214,323,25,75,2,0,1,2021-03-31 08:40:29.827
+1617172904837,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-16,text,true,,258,329,25,75,3,0,1,2021-03-31 08:40:29.857
+1617172908949,3,Ticks,204,,Thread Group - Ticks 1-17,,true,,102,532,25,75,0,0,1,2021-03-31 08:40:33.966
+1617172909010,3,Statistics,200,,Thread Group - Statistics 2-17,text,true,,214,323,25,75,2,0,1,2021-03-31 08:40:34.026
+1617172909040,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-17,text,true,,258,329,25,75,2,0,1,2021-03-31 08:40:34.054
+1617172909582,2,Ticks,204,,Thread Group - Ticks 1-5,,true,,102,533,25,75,0,0,1,2021-03-31 08:40:34.610
+1617172909612,3,Statistics,200,,Thread Group - Statistics 2-5,text,true,,214,323,25,75,3,0,1,2021-03-31 08:40:34.642
+1617172909639,2,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-5,text,true,,258,330,25,75,2,0,1,2021-03-31 08:40:34.667
+1617172913147,3,Ticks,204,,Thread Group - Ticks 1-18,,true,,102,532,25,75,0,0,1,2021-03-31 08:40:38.176
+1617172913210,3,Statistics,200,,Thread Group - Statistics 2-18,text,true,,214,323,25,75,2,0,1,2021-03-31 08:40:38.235
+1617172913240,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-18,text,true,,258,329,25,75,3,0,1,2021-03-31 08:40:38.262
+1617172917346,4,Ticks,204,,Thread Group - Ticks 1-19,,true,,102,533,25,75,0,0,1,2021-03-31 08:40:42.375
+1617172917410,5,Statistics,200,,Thread Group - Statistics 2-19,text,true,,214,324,25,74,4,0,1,2021-03-31 08:40:42.443
+1617172917439,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-19,text,true,,258,330,25,73,3,0,1,2021-03-31 08:40:42.476
+1617172921541,3,Ticks,204,,Thread Group - Ticks 1-20,,true,,102,533,24,72,0,0,1,2021-03-31 08:40:46.598
+1617172921609,2,Statistics,200,,Thread Group - Statistics 2-20,text,true,,214,324,24,71,2,0,1,2021-03-31 08:40:46.630
+1617172921637,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-20,text,true,,258,330,24,70,3,0,1,2021-03-31 08:40:46.655
+1617172925745,4,Ticks,204,,Thread Group - Ticks 1-21,,true,,102,533,23,69,0,0,1,2021-03-31 08:40:50.769
+1617172925782,3,Ticks,204,,Thread Group - Ticks 1-6,,true,,102,534,22,68,0,0,1,2021-03-31 08:40:50.800
+1617172925811,2,Statistics,200,,Thread Group - Statistics 2-6,text,true,,214,324,23,67,1,0,0,2021-03-31 08:40:50.834
+1617172925810,2,Statistics,200,,Thread Group - Statistics 2-21,text,true,,214,324,23,67,2,0,1,2021-03-31 08:40:50.834
+1617172925839,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-6,text,true,,258,331,23,65,2,0,1,2021-03-31 08:40:50.859
+1617172925838,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-21,text,true,,258,330,23,65,2,0,1,2021-03-31 08:40:50.859
+1617172929940,4,Ticks,204,,Thread Group - Ticks 1-22,,true,,102,533,21,63,0,0,1,2021-03-31 08:40:54.954
+1617172930009,3,Statistics,200,,Thread Group - Statistics 2-22,text,true,,214,324,21,62,2,0,1,2021-03-31 08:40:55.021
+1617172930036,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-22,text,true,,258,330,21,61,2,0,1,2021-03-31 08:40:55.046
+1617172934142,3,Ticks,204,,Thread Group - Ticks 1-23,,true,,102,533,20,60,0,0,1,2021-03-31 08:40:59.161
+1617172934212,3,Statistics,200,,Thread Group - Statistics 2-23,text,true,,214,324,20,59,2,0,1,2021-03-31 08:40:59.231
+1617172934259,2,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-23,text,true,,258,330,20,58,2,0,0,2021-03-31 08:40:59.278
+1617172938343,2,Ticks,204,,Thread Group - Ticks 1-24,,true,,102,533,19,57,0,0,1,2021-03-31 08:41:03.378
+1617172938411,2,Statistics,200,,Thread Group - Statistics 2-24,text,true,,214,324,19,56,2,0,1,2021-03-31 08:41:03.451
+1617172938437,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-24,text,true,,258,330,19,55,3,0,1,2021-03-31 08:41:03.455
+1617172938979,3,Ticks,204,,Thread Group - Ticks 1-7,,true,,102,534,18,54,0,0,1,2021-03-31 08:41:03.990
+1617172938990,3,Ticks,204,,Thread Group - Ticks 1-2,,true,,102,534,17,53,0,0,1,2021-03-31 08:41:04.002
+1617172939012,4,Statistics,200,,Thread Group - Statistics 2-2,text,true,,214,324,18,52,3,0,1,2021-03-31 08:41:04.025
+1617172939011,4,Statistics,200,,Thread Group - Statistics 2-7,text,true,,214,324,18,52,3,0,1,2021-03-31 08:41:04.025
+1617172939038,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-7,text,true,,258,331,18,50,3,0,2,2021-03-31 08:41:04.052
+1617172939037,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-2,text,true,,258,331,18,50,3,0,1,2021-03-31 08:41:04.052
+1617172942540,2,Ticks,204,,Thread Group - Ticks 1-25,,true,,102,533,16,48,0,0,1,2021-03-31 08:41:07.553
+1617172942610,3,Statistics,200,,Thread Group - Statistics 2-25,text,true,,214,324,16,47,2,0,1,2021-03-31 08:41:07.623
+1617172942638,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-25,text,true,,258,330,16,46,3,0,1,2021-03-31 08:41:07.654
+1617172946170,12,Ticks,204,,Thread Group - Ticks 1-8,,true,,102,534,15,45,0,0,9,2021-03-31 08:41:11.185
+1617172946212,2,Statistics,200,,Thread Group - Statistics 2-8,text,true,,214,324,15,44,2,0,1,2021-03-31 08:41:11.224
+1617172946237,6,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-8,text,true,,258,331,15,43,5,0,2,2021-03-31 08:41:11.249
+1617172950366,3,Ticks,204,,Thread Group - Ticks 1-9,,true,,102,534,14,42,0,0,1,2021-03-31 08:41:15.380
+1617172950412,3,Statistics,200,,Thread Group - Statistics 2-9,text,true,,214,324,14,41,3,0,1,2021-03-31 08:41:15.427
+1617172950437,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-9,text,true,,258,331,14,40,3,0,1,2021-03-31 08:41:15.449
+1617172954575,4,Ticks,204,,Thread Group - Ticks 1-10,,true,,102,534,13,39,0,0,2,2021-03-31 08:41:19.586
+1617172954611,3,Statistics,200,,Thread Group - Statistics 2-10,text,true,,214,324,13,38,3,0,1,2021-03-31 08:41:19.621
+1617172954638,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-10,text,true,,258,331,13,37,3,0,1,2021-03-31 08:41:19.650
+1617172955187,12,Ticks,204,,Thread Group - Ticks 1-3,,true,,102,534,12,36,0,0,6,2021-03-31 08:41:20.198
+1617172955211,5,Statistics,200,,Thread Group - Statistics 2-3,text,true,,214,324,12,36,4,0,2,2021-03-31 08:41:20.223
+1617172955238,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-3,text,true,,258,331,12,34,3,0,1,2021-03-31 08:41:20.251
+1617172958763,4,Ticks,204,,Thread Group - Ticks 1-11,,true,,102,534,11,33,0,0,2,2021-03-31 08:41:23.782
+1617172958813,3,Statistics,200,,Thread Group - Statistics 2-11,text,true,,214,324,11,32,3,0,1,2021-03-31 08:41:23.846
+1617172958819,8,Ticks,204,,Thread Group - Ticks 1-1,,true,,102,532,10,32,0,0,5,2021-03-31 08:41:23.839
+1617172958819,8,Statistics,200,,Thread Group - Statistics 2-1,text,true,,214,324,11,32,7,0,5,2021-03-31 08:41:23.839
+1617172958839,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-1,text,true,,258,329,11,29,4,0,3,2021-03-31 08:41:23.857
+1617172958839,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-11,text,true,,258,331,11,29,4,0,3,2021-03-31 08:41:23.857
+1617172962964,3,Ticks,204,,Thread Group - Ticks 1-12,,true,,102,534,9,27,0,0,1,2021-03-31 08:41:27.978
+1617172963011,3,Statistics,200,,Thread Group - Statistics 2-12,text,true,,214,324,9,26,2,0,1,2021-03-31 08:41:28.024
+1617172963036,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-12,text,true,,258,331,9,25,3,0,1,2021-03-31 08:41:28.049
+1617172967155,3,Ticks,204,,Thread Group - Ticks 1-13,,true,,102,534,8,24,0,0,1,2021-03-31 08:41:32.175
+1617172967211,7,Statistics,200,,Thread Group - Statistics 2-13,text,true,,214,324,8,23,7,0,5,2021-03-31 08:41:32.226
+1617172967237,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-13,text,true,,258,331,8,22,2,0,1,2021-03-31 08:41:32.258
+1617172971355,3,Ticks,204,,Thread Group - Ticks 1-14,,true,,102,534,7,21,0,0,1,2021-03-31 08:41:36.367
+1617172971387,6,Ticks,204,,Thread Group - Ticks 1-4,,true,,102,534,6,20,0,0,3,2021-03-31 08:41:36.401
+1617172971410,4,Statistics,200,,Thread Group - Statistics 2-14,text,true,,214,324,7,19,3,0,1,2021-03-31 08:41:36.426
+1617172971412,12,Statistics,200,,Thread Group - Statistics 2-4,text,true,,214,324,7,19,11,0,1,2021-03-31 08:41:36.426
+1617172971439,6,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-4,text,true,,258,331,7,18,5,0,2,2021-03-31 08:41:36.455
+1617172971438,8,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-14,text,true,,258,331,7,18,5,0,3,2021-03-31 08:41:36.455
+1617172975559,19,Ticks,204,,Thread Group - Ticks 1-15,,true,,102,534,5,15,0,0,8,2021-03-31 08:41:40.571
+1617172975610,3,Statistics,200,,Thread Group - Statistics 2-15,text,true,,214,324,5,14,2,0,1,2021-03-31 08:41:40.625
+1617172975637,7,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-15,text,true,,258,331,5,13,7,0,5,2021-03-31 08:41:40.650
+1617172979753,10,Ticks,204,,Thread Group - Ticks 1-16,,true,,102,534,4,12,0,0,2,2021-03-31 08:41:44.770
+1617172979809,6,Statistics,200,,Thread Group - Statistics 2-16,text,true,,214,324,4,11,5,0,4,2021-03-31 08:41:44.843
+1617172979835,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-16,text,true,,258,331,4,10,4,0,1,2021-03-31 08:41:44.844
+1617172983949,4,Ticks,204,,Thread Group - Ticks 1-17,,true,,102,534,3,9,0,0,2,2021-03-31 08:41:48.960
+1617172984008,14,Statistics,200,,Thread Group - Statistics 2-17,text,true,,214,324,3,8,13,0,5,2021-03-31 08:41:49.025
+1617172984038,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-17,text,true,,258,331,3,8,3,0,1,2021-03-31 08:41:49.052
+1617172984582,10,Ticks,204,,Thread Group - Ticks 1-5,,true,,102,534,2,6,0,0,6,2021-03-31 08:41:49.593
+1617172984611,10,Statistics,200,,Thread Group - Statistics 2-5,text,true,,214,324,2,6,10,0,5,2021-03-31 08:41:49.624
+1617172984637,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-5,text,true,,258,331,2,4,4,0,2,2021-03-31 08:41:49.649
+1617172988145,8,Ticks,204,,Thread Group - Ticks 1-18,,true,,102,534,1,3,0,0,1,2021-03-31 08:41:53.159
+1617172988209,18,Statistics,200,,Thread Group - Statistics 2-18,text,true,,214,324,1,2,13,0,2,2021-03-31 08:41:53.220
+1617172988239,6,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-18,text,true,,258,331,1,2,5,0,3,2021-03-31 08:41:53.251

@@ -1,0 +1,8 @@
+<root><type name="com.solactive.Application" s="7"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<annotations>
+<annotation name="java.lang.SuppressWarnings"/>
+<annotation name="com.solactive.SpringBootApplication"/>
+<annotation name="com.solactive.ComponentScan"/>
+</annotations><method name="main(java.lang.String[])" s="12" e="15" n ="false" sta ="true" sync ="false" vis="public" return="void"  signature="(java.lang.String[])"><annotations><annotation name="java.lang.SuppressWarnings"/></annotations><params><param type="java.lang.String[]"/></params><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="executorMultiRequests()" s="17" e="20" n ="false" sta ="false" sync ="false" vis="package" return="com.solactive.ExecutorMultiRequests"  signature="()"><annotations><annotation name="com.solactive.Bean"/></annotations><dm p="com.solactive.ExecutorMultiRequests" s="ExecutorMultiRequests()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

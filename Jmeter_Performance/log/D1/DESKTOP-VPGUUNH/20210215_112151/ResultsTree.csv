@@ -1,0 +1,58 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1613384512043,5,Statistics,200,,Thread Group - Statistics 2-1,text,true,,214,322,1,3,4,0,1
+1613384512046,13,Ticks,204,,Thread Group - Ticks 1-1,,true,,102,535,1,3,0,0,2
+1613384512049,10,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-1,text,true,,258,332,1,3,5,0,2
+1613384513239,9,Ticks,204,,Thread Group - Ticks 1-2,,true,,102,535,2,5,0,0,2
+1613384513245,26,Statistics,200,,Thread Group - Statistics 2-2,text,true,,214,322,2,6,6,0,2
+1613384513252,24,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-2,text,true,,258,332,2,6,5,0,2
+1613384514444,25,Statistics,200,,Thread Group - Statistics 2-3,text,true,,214,322,3,9,6,0,2
+1613384514437,8,Ticks,204,,Thread Group - Ticks 1-3,,true,,102,535,3,8,0,0,2
+1613384514450,24,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-3,text,true,,258,332,3,9,6,0,3
+1613384515048,10,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-1,text,true,,258,329,3,9,2,0,0
+1613384515037,4,Ticks,204,,Thread Group - Ticks 1-1,,true,,102,532,3,9,0,0,0
+1613384515042,14,Statistics,200,,Thread Group - Statistics 2-1,text,true,,214,322,3,9,2,0,0
+1613384515636,9,Ticks,204,,Thread Group - Ticks 1-4,,true,,102,535,4,11,0,0,3
+1613384515644,21,Statistics,200,,Thread Group - Statistics 2-4,text,true,,214,322,4,12,6,0,3
+1613384515652,15,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-4,text,true,,258,332,4,12,5,0,2
+1613384516844,20,Statistics,200,,Thread Group - Statistics 2-5,text,true,,214,322,5,15,6,0,2
+1613384516837,9,Ticks,204,,Thread Group - Ticks 1-5,,true,,102,535,5,14,0,0,3
+1613384516853,13,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-5,text,true,,258,332,5,15,5,0,3
+1613384518036,3,Ticks,204,,Thread Group - Ticks 1-6,,true,,102,535,6,16,0,0,0
+1613384518042,6,Statistics,200,,Thread Group - Statistics 2-6,text,true,,214,322,6,17,2,0,1
+1613384518058,2,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-6,text,true,,258,332,6,18,2,0,0
+1613384519238,16,Ticks,204,,Thread Group - Ticks 1-7,,true,,102,535,7,20,0,0,3
+1613384519237,12,Ticks,204,,Thread Group - Ticks 1-2,,true,,102,532,7,20,0,0,0
+1613384519243,27,Statistics,200,,Thread Group - Statistics 2-7,text,true,,214,322,7,21,8,0,4
+1613384519243,29,Statistics,200,,Thread Group - Statistics 2-2,text,true,,214,322,7,21,8,0,0
+1613384519250,29,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-2,text,true,,258,329,7,21,8,0,0
+1613384519259,20,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-7,text,true,,258,332,7,21,6,0,2
+1613384520442,9,Statistics,200,,Thread Group - Statistics 2-8,text,true,,214,323,8,23,4,0,2
+1613384520435,4,Ticks,204,,Thread Group - Ticks 1-8,,true,,102,536,8,22,0,0,2
+1613384520458,11,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-8,text,true,,258,333,8,24,3,0,2
+1613384521636,10,Ticks,204,,Thread Group - Ticks 1-9,,true,,102,536,9,26,0,0,3
+1613384521644,23,Statistics,200,,Thread Group - Statistics 2-9,text,true,,214,323,9,27,6,0,2
+1613384521658,10,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-9,text,true,,258,333,9,27,3,0,1
+1613384522835,5,Ticks,204,,Thread Group - Ticks 1-10,,true,,102,536,10,28,0,0,2
+1613384522843,4,Statistics,200,,Thread Group - Statistics 2-10,text,true,,214,323,10,29,2,0,0
+1613384522859,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-10,text,true,,258,333,10,30,3,0,1
+1613384523442,4,Statistics,200,,Thread Group - Statistics 2-3,text,true,,214,323,10,30,4,0,0
+1613384523447,10,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-3,text,true,,258,330,10,30,4,0,0
+1613384523435,5,Ticks,204,,Thread Group - Ticks 1-3,,true,,102,533,10,30,0,0,0
+1613384524035,3,Ticks,204,,Thread Group - Ticks 1-11,,true,,102,536,11,31,0,0,1
+1613384524042,26,Statistics,200,,Thread Group - Statistics 2-1,text,true,,214,323,11,33,5,0,0
+1613384524042,14,Statistics,200,,Thread Group - Statistics 2-11,text,true,,214,323,11,32,3,0,1
+1613384524036,18,Ticks,204,,Thread Group - Ticks 1-1,,true,,102,533,11,32,0,0,0
+1613384524048,27,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-1,text,true,,258,330,11,33,4,0,0
+1613384524057,22,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-11,text,true,,258,333,11,33,3,0,1
+1613384525260,31,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-12,text,true,,258,333,12,36,6,0,2
+1613384525237,9,Ticks,204,,Thread Group - Ticks 1-12,,true,,102,536,12,35,0,0,2
+1613384525243,47,Statistics,200,,Thread Group - Statistics 2-12,text,true,,214,323,12,36,6,0,2
+1613384526459,11,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-13,text,true,,258,333,13,39,4,0,2
+1613384526439,8,Ticks,204,,Thread Group - Ticks 1-13,,true,,102,536,13,38,0,0,3
+1613384526445,13,Statistics,200,,Thread Group - Statistics 2-13,text,true,,214,323,13,39,4,0,1
+1613384527637,4,Ticks,204,,Thread Group - Ticks 1-4,,true,,102,533,14,40,0,0,0
+1613384527644,11,Statistics,200,,Thread Group - Statistics 2-14,text,true,,214,323,14,41,2,0,1
+1613384527638,12,Ticks,204,,Thread Group - Ticks 1-14,,true,,102,536,14,41,0,0,1
+1613384527643,7,Statistics,200,,Thread Group - Statistics 2-4,text,true,,214,323,14,41,3,0,0
+1613384527658,3,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-14,text,true,,258,333,14,42,2,0,1
+1613384527651,6,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-4,text,true,,258,330,13,41,4,0,0

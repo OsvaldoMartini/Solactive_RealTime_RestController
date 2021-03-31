@@ -1,0 +1,19 @@
+<root><type name="com.solactive.pojos.StatisticsDTO" s="2"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<field name="avg" s="3" type="double" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="max" s="4" type="double" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="min" s="5" type="double" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="count" s="6" type="long" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<method name="StatisticsDTO()" s="8" e="10" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><metrics cc="1" cm="0" vars="0" loc="0"/></method><method name="StatisticsDTO(double,double,double,long)" s="12" e="18" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(double,double,double,long)"><params><param type="double"/><param type="double"/><param type="double"/><param type="long"/></params><fm p="com.solactive.pojos.StatisticsDTO" s="avg"/>
+<fm p="com.solactive.pojos.StatisticsDTO" s="max"/>
+<fm p="com.solactive.pojos.StatisticsDTO" s="min"/>
+<fm p="com.solactive.pojos.StatisticsDTO" s="count"/>
+<metrics cc="1" cm="0" vars="0" loc="5"/></method><method name="getAvg()" s="20" e="22" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="double"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="setAvg(double)" s="24" e="26" n ="false" sta ="false" sync ="false" set ="true" vis="public" return="void"  signature="(double)"><params><param type="double"/></params><fm p="com.solactive.pojos.StatisticsDTO" s="avg"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getMax()" s="28" e="30" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="double"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="setMax(double)" s="32" e="34" n ="false" sta ="false" sync ="false" set ="true" vis="public" return="void"  signature="(double)"><params><param type="double"/></params><fm p="com.solactive.pojos.StatisticsDTO" s="max"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getMin()" s="36" e="38" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="double"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="setMin(double)" s="40" e="42" n ="false" sta ="false" sync ="false" set ="true" vis="public" return="void"  signature="(double)"><params><param type="double"/></params><fm p="com.solactive.pojos.StatisticsDTO" s="min"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getCount()" s="44" e="46" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="long"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="setCount(long)" s="48" e="50" n ="false" sta ="false" sync ="false" set ="true" vis="public" return="void"  signature="(long)"><params><param type="long"/></params><fm p="com.solactive.pojos.StatisticsDTO" s="count"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

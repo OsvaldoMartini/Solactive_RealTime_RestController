@@ -1,0 +1,22 @@
+<root><type name="com.solactive.controller.TickController" s="18"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<annotations>
+<annotation name="com.solactive.controller.RestController"/>
+<annotation name="com.solactive.controller.RequestMapping"/>
+</annotations><field name="executorMultiRequests" s="22" type="com.solactive.ExecutorMultiRequests" vis="package"  fin ="false" sta ="false" c="0" >
+<annotations><annotation name="com.solactive.controller.Autowired"/></annotations></field>
+<method name="postTicks(com.solactive.pojos.TicksDTO)" s="28" e="41" n ="false" sta ="false" sync ="false" vis="public" return="com.solactive.controller.ResponseEntity"  signature="(com.solactive.pojos.TicksDTO)"><annotations><annotation name="com.solactive.controller.PostMapping"/></annotations><params><param type="com.solactive.pojos.TicksDTO"/></params><dm p="java.time.Instant" s="toEpochMilli()"/>
+<dm p="java.time.Instant" s="minus(java.time.temporal.TemporalAmount)"/>
+<dm p="java.time.Instant" s="now()"/>
+<dm p="java.time.Duration" s="ofSeconds(long)"/>
+<dm p="java.time.Instant" s="toEpochMilli()"/>
+<dm p="java.time.Instant" s="now()"/>
+<dm p="com.solactive.pojos.TicksDTO" s="getTimeStamp()"/>
+<dm p="java.lang.Object" s="Object()"/>
+<dm p="com.solactive.pojos.TicksDTO" s="getTimeStamp()"/>
+<dm p="java.lang.Object" s="Object()"/>
+<dm p="java.util.Map" s="put(java.lang.Object,java.lang.Object)"/>
+<dm p="com.solactive.pojos.TicksDTO" s="getInstrument()"/>
+<dm p="com.solactive.pojos.TicksDTO" s="getTimeStamp()"/>
+<dm p="java.lang.Object" s="Object()"/>
+<metrics cc="3" cm="0" vars="2" loc="8"/></method>
+</type></root>

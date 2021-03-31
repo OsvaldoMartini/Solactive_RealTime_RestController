@@ -1,0 +1,22 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1613379631674,7,Statistics,200,,Thread Group - Statistics 2-1,text,true,,214,322,1,2,6,0,3
+1613379631682,10,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-1,text,true,,258,332,1,3,10,0,1
+1613379631680,12,Ticks,204,,Thread Group - Ticks 1-1,,true,,102,483,1,3,0,0,1
+1613379632870,6,Ticks,204,,Thread Group - Ticks 1-2,,true,,102,483,2,5,0,0,2
+1613379632876,17,Statistics,200,,Thread Group - Statistics 2-2,text,true,,214,322,2,6,4,0,1
+1613379632883,14,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-2,text,true,,258,332,2,6,4,0,1
+1613379634068,3,Ticks,204,,Thread Group - Ticks 1-3,,true,,102,483,3,7,0,0,0
+1613379634076,4,Statistics,200,,Thread Group - Statistics 2-3,text,true,,214,322,3,8,3,0,1
+1613379634085,4,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-3,text,true,,258,332,3,9,3,0,1
+1613379634668,3,Ticks,204,,Thread Group - Ticks 1-1,,true,,102,480,3,9,0,0,0
+1613379634673,16,Statistics,200,,Thread Group - Statistics 2-1,text,true,,214,322,3,9,3,0,0
+1613379634682,10,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-1,text,true,,258,329,3,9,2,0,0
+1613379635267,7,Ticks,204,,Thread Group - Ticks 1-4,,true,,102,483,4,11,0,0,2
+1613379635275,15,Statistics,200,,Thread Group - Statistics 2-4,text,true,,214,322,4,11,4,0,1
+1613379635294,5,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-4,text,true,,258,332,4,12,2,0,1
+1613379636466,5,Ticks,204,,Thread Group - Ticks 1-5,,true,,102,483,5,13,0,0,1
+1613379636474,10,Statistics,200,,Thread Group - Statistics 2-5,text,true,,214,322,5,15,3,0,1
+1613379636481,13,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-5,text,true,,258,332,5,15,3,0,0
+1613379637667,10,Ticks,204,,Thread Group - Ticks 1-6,,true,,102,483,6,17,0,0,3
+1613379637676,17,Statistics,200,,Thread Group - Statistics 2-6,text,true,,214,322,6,18,6,0,3
+1613379637692,11,Statistics Instruments,200,,Thread Group - Statistics Instruments 3-6,text,true,,258,332,6,18,3,0,1

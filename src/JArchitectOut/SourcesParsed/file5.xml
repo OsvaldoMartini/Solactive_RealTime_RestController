@@ -1,0 +1,19 @@
+<root><type name="com.solactive.pojos.TicksDTO" s="4"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<interfaces>
+<interface name="java.io.Serializable"/>
+</interfaces><field name="serialVersionUID" s="5" type="long" vis="private"  fin ="true" sta ="true" c="0" >
+</field>
+<field name="instrument" s="7" type="java.lang.String" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="price" s="8" type="java.lang.Double" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="timeStamp" s="9" type="long" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<method name="TicksDTO()" s="11" e="13" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><metrics cc="1" cm="0" vars="0" loc="0"/></method><method name="TicksDTO(java.lang.String,java.lang.Double,long)" s="15" e="20" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.lang.String,java.lang.Double,long)"><params><param type="java.lang.String"/><param type="java.lang.Double"/><param type="long"/></params><fm p="com.solactive.pojos.TicksDTO" s="instrument"/>
+<fm p="com.solactive.pojos.TicksDTO" s="price"/>
+<fm p="com.solactive.pojos.TicksDTO" s="timeStamp"/>
+<metrics cc="1" cm="0" vars="0" loc="4"/></method><method name="getInstrument()" s="22" e="24" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="java.lang.String"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="setInstrument(java.lang.String)" s="26" e="28" n ="false" sta ="false" sync ="false" set ="true" vis="public" return="void"  signature="(java.lang.String)"><params><param type="java.lang.String"/></params><fm p="com.solactive.pojos.TicksDTO" s="instrument"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getPrice()" s="30" e="32" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="java.lang.Double"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="setPrice(java.lang.Double)" s="34" e="36" n ="false" sta ="false" sync ="false" set ="true" vis="public" return="void"  signature="(java.lang.Double)"><params><param type="java.lang.Double"/></params><fm p="com.solactive.pojos.TicksDTO" s="price"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getTimeStamp()" s="38" e="40" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="long"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="setTimeStamp(long)" s="42" e="44" n ="false" sta ="false" sync ="false" set ="true" vis="public" return="void"  signature="(long)"><params><param type="long"/></params><fm p="com.solactive.pojos.TicksDTO" s="timeStamp"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

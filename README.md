@@ -88,15 +88,15 @@ JArchitect First Analisys
 
 JArchitect Report
 
-[![logo](https://github.com/OsvaldoMartini/Solactive_RealTime_RestController/blob/master/NDepend_Report.png)](http://www.wservices.co.uk/geolocalization/NDependOut/NDependReport.html)
+[![logo](https://github.com/OsvaldoMartini/JArchitect-RealTime-App-Analysis/blob/master/NDepend_Report.png)](http://www.wservices.co.uk/geolocalization/NDependOut/NDependReport.html)
 
 DASHBOARD:
 
-![logo](https://github.com/OsvaldoMartini/Solactive_RealTime_RestController/blob/master/Dashboard_first_analisys.PNG)
+![logo](https://github.com/OsvaldoMartini/JArchitect-RealTime-App-Analysis/blob/master/Dashboard_first_analisys.PNG)
 
 QUERIES AND RULES
 
-![logo](https://github.com/OsvaldoMartini/Solactive_RealTime_RestController/blob/master/Queries_and_Rules.PNG)
+![logo](https://github.com/OsvaldoMartini/JArchitect-RealTime-App-Analysis/blob/master/Queries_and_Rules.PNG)
 
 
 

@@ -33,6 +33,6 @@ SET LOAD_GEN_NUMBER=1
 SET DURATION=300
 
 :: RUN TEST PLAN
-SET CMD=%JMETER% -Jsample_variables=trxTimeStamp -JloadGenNumber=%LOAD_GEN_NUMBER% -Jduration=%DURATION% -n -t "%TEST_PLAN_FILE%" -l "%LOG_FILE%" -j "%RUN_LOG_FILE%" -Jjmeter.reportgenerator.overall_granularity=60000 -e -o "%REPORT%"
+SET CMD=%JMETER% -Jsample_variables=trxTimeStamp -JloadGenNumber=%LOAD_GEN_NUMBER% -Jduration=%DURATION% -n -t "%TEST_PLAN_FILE%" -l "%LOG_FILE%" -j "%RUN_LOG_FILE%" -Jjmeter.reportgenerator.overall_granularity=60000 -e -o "%REPORT%" -Dnashorn.args=--no-deprecation-warning
 :: ECHO %CMD%
 START %CMD%
